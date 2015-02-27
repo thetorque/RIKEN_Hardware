@@ -1,0 +1,88 @@
+Added Component: Designator=D1(RESC2012M)
+Added Component: Designator=D2(RESC2012M)
+Added Component: Designator=D3(RESC2012M)
+Added Component: Designator=D4(RESC2012M)
+Added Component: Designator=D5(RESC2012M)
+Added Component: Designator=D6(RESC2012M)
+Added Component: Designator=D7(RESC2012M)
+Added Component: Designator=D8(RESC2012M)
+Added Component: Designator=R41(RESC2012M)
+Added Component: Designator=R42(RESC2012M)
+Added Component: Designator=R43(RESC2012M)
+Added Component: Designator=R44(RESC2012M)
+Added Component: Designator=R45(RESC2012M)
+Added Component: Designator=R46(RESC2012M)
+Added Component: Designator=R47(RESC2012M)
+Added Component: Designator=R48(RESC2012M)
+Added Pin To Net: NetName=DGND Pin=R41-1
+Added Pin To Net: NetName=DGND Pin=R42-1
+Added Pin To Net: NetName=DGND Pin=R43-1
+Added Pin To Net: NetName=DGND Pin=R44-1
+Added Pin To Net: NetName=DGND Pin=R45-1
+Added Pin To Net: NetName=DGND Pin=R46-1
+Added Pin To Net: NetName=DGND Pin=R47-1
+Added Pin To Net: NetName=DGND Pin=R48-1
+Added Pin To Net: NetName=LED_0 Pin=D1-1
+Added Pin To Net: NetName=LED_0 Pin=U11-1C4
+Added Net: Name=LED_0
+Added Pin To Net: NetName=LED_1 Pin=D3-1
+Added Pin To Net: NetName=LED_1 Pin=U11-1C5
+Added Net: Name=LED_1
+Added Pin To Net: NetName=LED_2 Pin=D5-1
+Added Pin To Net: NetName=LED_2 Pin=U11-1C6
+Added Net: Name=LED_2
+Added Pin To Net: NetName=LED_3 Pin=D7-1
+Added Pin To Net: NetName=LED_3 Pin=U11-1C7
+Added Net: Name=LED_3
+Added Pin To Net: NetName=LED_4 Pin=D2-1
+Added Pin To Net: NetName=LED_4 Pin=U11-1C8
+Added Net: Name=LED_4
+Added Pin To Net: NetName=LED_5 Pin=D4-1
+Added Pin To Net: NetName=LED_5 Pin=U11-1C9
+Added Net: Name=LED_5
+Added Pin To Net: NetName=LED_6 Pin=D6-1
+Added Pin To Net: NetName=LED_6 Pin=U11-1C10
+Added Net: Name=LED_6
+Added Pin To Net: NetName=LED_7 Pin=D8-1
+Added Pin To Net: NetName=LED_7 Pin=U11-1C11
+Added Net: Name=LED_7
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=R41-2
+Added Net: Name=NetD1_2
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=NetD2_2 Pin=R42-2
+Added Net: Name=NetD2_2
+Added Pin To Net: NetName=NetD3_2 Pin=D3-2
+Added Pin To Net: NetName=NetD3_2 Pin=R43-2
+Added Net: Name=NetD3_2
+Added Pin To Net: NetName=NetD4_2 Pin=D4-2
+Added Pin To Net: NetName=NetD4_2 Pin=R44-2
+Added Net: Name=NetD4_2
+Added Pin To Net: NetName=NetD5_2 Pin=D5-2
+Added Pin To Net: NetName=NetD5_2 Pin=R45-2
+Added Net: Name=NetD5_2
+Added Pin To Net: NetName=NetD6_2 Pin=D6-2
+Added Pin To Net: NetName=NetD6_2 Pin=R46-2
+Added Net: Name=NetD6_2
+Added Pin To Net: NetName=NetD7_2 Pin=D7-2
+Added Pin To Net: NetName=NetD7_2 Pin=R47-2
+Added Net: Name=NetD7_2
+Added Pin To Net: NetName=NetD8_2 Pin=D8-2
+Added Pin To Net: NetName=NetD8_2 Pin=R48-2
+Added Net: Name=NetD8_2
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component D1 LED
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component D2 LED
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component D3 LED
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component D4 LED
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component D5 LED
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component D6 LED
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component D7 LED
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component D8 LED
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R41 Res3
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R42 Res3
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R43 Res3
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R44 Res3
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R45 Res3
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R46 Res3
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R47 Res3
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R48 Res3

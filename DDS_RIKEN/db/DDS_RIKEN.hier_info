@@ -1,0 +1,18 @@
+|DDS_RIKEN
+clk_dds => ~NO_FANOUT~
+clk_in0 => clk_system.CLK
+clk_in0 => count[0].CLK
+clk_in0 => count[1].CLK
+clk_in0 => count[2].CLK
+clk_in0 => count[3].CLK
+clk_in0 => count[4].CLK
+LED_CLK << LED_CLK~reg0.DB_MAX_OUTPUT_PORT_TYPE
+LED_SDI[0] << LED_SDI[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+LED_LE << LED_LE~reg0.DB_MAX_OUTPUT_PORT_TYPE
+LED_OE << LED_OE~reg0.DB_MAX_OUTPUT_PORT_TYPE
+add_in[0] => ~NO_FANOUT~
+add_in[1] => ~NO_FANOUT~
+add_in[2] => ~NO_FANOUT~
+add_in[3] => ~NO_FANOUT~
+
+

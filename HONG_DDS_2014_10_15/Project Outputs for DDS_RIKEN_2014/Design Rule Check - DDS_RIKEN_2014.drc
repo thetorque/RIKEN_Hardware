@@ -1,0 +1,73 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\thanedp\Desktop\HONG_DDS_2014_10_15\DDS_RIKEN_2014.PcbDoc
+Date     : 2/4/2015
+Time     : 5:45:38 PM
+
+ERROR : More than 30 violations detected, DRC was stopped
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) (InPolygon),(OnLayer('Power'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.125mm) (Max=1mm) (Preferred=0.125mm) (All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.3mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.3mm) (Max=2.54mm) (All)
+   Violation between Hole Size Constraint: Pad Free-4(0mm,0mm)  MultiLayer
+   Violation between Hole Size Constraint: Pad Free-2(135.775mm,96.675mm)  MultiLayer
+   Violation between Hole Size Constraint: Pad Free-1(135.5mm,9.2mm)  MultiLayer
+   Violation between Hole Size Constraint: Via (87.1mm,20.975mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (77.7mm,20.575mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (88.3mm,39.575mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (21.3mm,77.975mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (20.9mm,82.975mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (56.05mm,44.325mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (53.675mm,44.425mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (56.075mm,46.55mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (54.75mm,47.225mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (68.40866mm,74.71132mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (89.825mm,74.05mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (68.875mm,65.55mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (77.45mm,64.65mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (83.9mm,68.775mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (62.05mm,42.88mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (80.525mm,47.95mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (65.9mm,43.1mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (67.2mm,43.3mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (81.5mm,47.45mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (81.55mm,48.95mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (82.975mm,49.825mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (69.9mm,42.575mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (49.225mm,37.275mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (84.8mm,44.725mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (87.525mm,47.45mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (87.9mm,68.775mm) TopLayer to BottomLayer
+   Violation between Hole Size Constraint: Via (87.9mm,67.775mm) TopLayer to BottomLayer
+Rule Violations :30
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.175mm) (InPolygon),(All)
+Rule Violations :0
+
+
+Violations Detected : 30
+Time Elapsed        : 00:00:00

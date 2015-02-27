@@ -1,0 +1,13 @@
+Added Pin To Net: NetName=3.3V_DIG Pin=U11-1A1
+Added Pin To Net: NetName=DGND Pin=U11-1A2
+Added Pin To Net: NetName=DGND Pin=U11-1B2
+Added Pin To Net: NetName=DGND Pin=U11-1B39
+Added Pin To Net: NetName=3.3V_DIG Pin=U11-1C1
+Added Pin To Net: NetName=DGND Pin=U11-1C2
+Added Pin To Net: NetName=DGND Pin=U11-1C39
+Added Pin To Net: NetName=DGND Pin=U11-2A2
+Added Pin To Net: NetName=DGND Pin=U11-2A39
+Added Pin To Net: NetName=DGND Pin=U11-2B2
+Added Pin To Net: NetName=DGND Pin=U11-2B39
+Added Pin To Net: NetName=DGND Pin=U11-2C2
+Added Pin To Net: NetName=DGND Pin=U11-2C39

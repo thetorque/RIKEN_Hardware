@@ -1,0 +1,5 @@
+Change Component DesignItemId : Designator=P1 Old DesignItemId= New DesignItemId=PCI3V32BIT
+Change Component Description : Designator=P1 Old Description= New Description=Card, 120-Position
+Added Component: Designator=U1(CP_88_5)
+Added Class: Name=DDS_RIKEN_main
+Added Room: Name=DDS_RIKEN_main

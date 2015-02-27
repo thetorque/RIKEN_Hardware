@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=BUS31_N Pin=U3-2
+Removed Pin From Net: NetName=BUS31_P Pin=U3-3
+Added Pin To Net: NetName=BUS30_N Pin=U3-2
+Added Pin To Net: NetName=BUS30_P Pin=U3-3
+Added Pin To Net: NetName=BUS31_P Pin=U3-5
+Added Pin To Net: NetName=BUS31_N Pin=U3-6

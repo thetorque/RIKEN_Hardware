@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=TRIGGER_IN Pin=P9-32
+Added Pin To Net: NetName=AUX_IN_1 Pin=P9-34
+Added Pin To Net: NetName=PMT_IN Pin=P9-36

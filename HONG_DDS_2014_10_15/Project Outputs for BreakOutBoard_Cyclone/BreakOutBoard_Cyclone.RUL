@@ -1,0 +1,6 @@
+DRC Rules Export File for PCB: C:\Users\thanedp\Desktop\HONG_DDS_2014_10_15\BreakOutBoard_Cyclone.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_Polygon|Scope=Board|Minimum=6.89
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

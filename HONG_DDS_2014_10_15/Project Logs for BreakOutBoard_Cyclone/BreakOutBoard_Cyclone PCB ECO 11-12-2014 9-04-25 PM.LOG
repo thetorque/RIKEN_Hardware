@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=BUS38_P Pin=U1-1
+Added Pin To Net: NetName=BUS38_N Pin=U1-2
+Added Pin To Net: NetName=BUS38 Pin=U1-3
+Added Net: Name=BUS38
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component U2 MAX3094, Rx

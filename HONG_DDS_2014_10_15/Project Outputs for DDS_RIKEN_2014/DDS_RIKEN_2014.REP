@@ -1,0 +1,386 @@
+*************************************************************
+FileName = DDS_RIKEN_2014.GBR
+AutoAperture = True
+*************************************************************
+Generating : TopLayer
+      File : DDS_RIKEN_2014.GTL
+
+    Adding Layer      : TopLayer
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+*************************************************************
+
+*************************************************************
+Generating : Ground
+      File : DDS_RIKEN_2014.G1
+
+    Adding Layer      : Ground
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D39
+    D59
+    D61
+    D62
+    D63
+    D64
+    D66
+*************************************************************
+
+*************************************************************
+Generating : Power
+      File : DDS_RIKEN_2014.G2
+
+    Adding Layer      : Power
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D39
+    D52
+    D54
+    D59
+    D60
+    D61
+    D62
+*************************************************************
+
+*************************************************************
+Generating : BottomLayer
+      File : DDS_RIKEN_2014.GBL
+
+    Adding Layer      : BottomLayer
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D10
+    D15
+    D17
+    D18
+    D20
+    D23
+    D28
+    D32
+    D39
+    D46
+    D50
+    D51
+    D52
+    D55
+    D56
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+*************************************************************
+
+*************************************************************
+Generating : TopOverlay
+      File : DDS_RIKEN_2014.GTO
+
+    Adding Layer      : TopOverlay
+
+
+Used DCodes :
+    D52
+    D53
+    D59
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+*************************************************************
+
+*************************************************************
+Generating : TopPaste
+      File : DDS_RIKEN_2014.GTP
+
+    Adding Layer      : TopPaste
+
+    Adding Layer      : TopLayer
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D59
+    D75
+*************************************************************
+
+*************************************************************
+Generating : TopSolder
+      File : DDS_RIKEN_2014.GTS
+
+    Adding Layer      : TopSolder
+
+    Adding Layer      : TopLayer
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D59
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+    D105
+    D106
+    D107
+    D108
+    D109
+    D110
+    D111
+    D112
+    D113
+    D114
+    D115
+    D116
+    D117
+    D118
+    D119
+    D120
+    D121
+    D122
+*************************************************************
+
+*************************************************************
+Generating : BottomSolder
+      File : DDS_RIKEN_2014.GBS
+
+    Adding Layer      : BottomSolder
+
+    Adding Layer      : BottomLayer
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D59
+    D76
+    D77
+    D82
+    D84
+    D85
+    D87
+    D90
+    D95
+    D99
+    D106
+    D113
+    D117
+    D118
+    D119
+    D120
+    D121
+    D122
+    D123
+    D124
+    D125
+*************************************************************
+
+*************************************************************
+Generating : BottomPaste
+      File : DDS_RIKEN_2014.GBP
+
+    Adding Layer      : BottomPaste
+
+    Adding Layer      : BottomLayer
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D10
+    D15
+    D17
+    D18
+    D20
+    D23
+    D28
+    D32
+    D46
+    D59
+    D67
+    D68
+*************************************************************
+
+*************************************************************
+Generating : BottomOverlay
+      File : DDS_RIKEN_2014.GBO
+
+    Adding Layer      : BottomOverlay
+
+
+Used DCodes :
+    D52
+    D53
+    D57
+    D69
+*************************************************************
+
+*************************************************************
+Generating : Mechanical4
+      File : DDS_RIKEN_2014.GM4
+
+    Adding Layer      : Mechanical4
+
+
+Used DCodes :
+    D53
+    D59
+    D71
+    D72
+    D73
+    D126
+*************************************************************
+
+*************************************************************
+Generating : KeepOutLayer
+      File : DDS_RIKEN_2014.GKO
+
+    Adding Layer      : KeepOutLayer
+
+
+Used DCodes :
+    D127
+*************************************************************
+

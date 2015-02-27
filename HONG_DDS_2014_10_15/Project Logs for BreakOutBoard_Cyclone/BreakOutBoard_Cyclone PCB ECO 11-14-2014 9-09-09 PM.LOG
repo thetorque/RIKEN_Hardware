@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=AUX_IO_1 Pin=P6-3
+Added Pin To Net: NetName=AUX_IO_3 Pin=P6-5
+Added Pin To Net: NetName=AUX_IO_5 Pin=P6-7
+Added Pin To Net: NetName=AUX_IO_7 Pin=P6-9
+Added Pin To Net: NetName=AUX_IO_9 Pin=P6-11
+Added Pin To Net: NetName=AUX_IO_11 Pin=P6-13
+Added Pin To Net: NetName=AUX_IO_13 Pin=P6-15
+Added Pin To Net: NetName=AUX_IO_15 Pin=P6-17
+Added Pin To Net: NetName=AUX_IO_17 Pin=P6-19

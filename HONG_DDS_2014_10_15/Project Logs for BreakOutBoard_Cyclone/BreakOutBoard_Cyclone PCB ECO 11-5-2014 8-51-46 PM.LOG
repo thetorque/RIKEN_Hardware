@@ -1,0 +1,165 @@
+Added Component: Designator=C1(CAPC2012L)
+Added Component: Designator=C2(CAPC2012L)
+Added Component: Designator=C3(B)
+Added Component: Designator=C4(B)
+Added Component: Designator=C5(B)
+Added Component: Designator=C6(B)
+Added Component: Designator=C7(CAPC2012L)
+Added Component: Designator=C8(CAPC2012L)
+Added Component: Designator=C9(CAPC2012L)
+Added Component: Designator=C10(CAPC2012L)
+Added Component: Designator=C11(CAPC2012L)
+Added Component: Designator=C12(CAPC2012L)
+Added Component: Designator=C13(CAPC2012L)
+Added Component: Designator=C14(CAPC2012L)
+Added Component: Designator=C15(B)
+Added Component: Designator=C16(B)
+Added Component: Designator=C17(B)
+Added Component: Designator=C18(B)
+Added Component: Designator=C19(B)
+Added Component: Designator=C20(B)
+Added Component: Designator=C21(B)
+Added Component: Designator=C22(B)
+Added Component: Designator=C23(CAPC2012L)
+Added Component: Designator=C24(CAPC2012L)
+Added Component: Designator=C25(CAPC2012L)
+Added Component: Designator=C26(CAPC2012L)
+Added Component: Designator=C27(CAPC2012L)
+Added Component: Designator=C28(CAPC2012L)
+Added Component: Designator=C29(CAPC2012L)
+Added Component: Designator=C30(CAPC2012L)
+Added Component: Designator=C31(CAPC2012L)
+Added Component: Designator=C32(CAPC2012L)
+Added Component: Designator=C33(CAPC2012L)
+Added Component: Designator=C34(CAPC2012L)
+Added Component: Designator=C35(CAPC2012L)
+Added Component: Designator=C36(CAPC2012L)
+Added Component: Designator=C37(CAPC2012L)
+Added Component: Designator=C38(CAPC2012L)
+Added Component: Designator=U1(NSO16_N)
+Added Component: Designator=U2(NSO16_N)
+Added Pin To Net: NetName=DGND Pin=C1-2
+Added Pin To Net: NetName=DGND Pin=C2-2
+Added Pin To Net: NetName=5V_DIG_BUS Pin=C3-1
+Added Pin To Net: NetName=AGND Pin=C3-2
+Added Pin To Net: NetName=5V_DIG_BUS Pin=C4-1
+Added Pin To Net: NetName=AGND Pin=C4-2
+Added Pin To Net: NetName=5V_DIG_BUS Pin=C5-1
+Added Pin To Net: NetName=AGND Pin=C5-2
+Added Pin To Net: NetName=5V_DIG_BUS Pin=C6-1
+Added Pin To Net: NetName=AGND Pin=C6-2
+Added Pin To Net: NetName=AGND Pin=C7-1
+Added Pin To Net: NetName=5V_DIG_BUS Pin=C7-2
+Added Pin To Net: NetName=AGND Pin=C8-1
+Added Pin To Net: NetName=5V_DIG_BUS Pin=C8-2
+Added Pin To Net: NetName=AGND Pin=C9-1
+Added Pin To Net: NetName=5V_DIG_BUS Pin=C9-2
+Added Pin To Net: NetName=AGND Pin=C10-1
+Added Pin To Net: NetName=5V_DIG_BUS Pin=C10-2
+Added Pin To Net: NetName=AGND Pin=C11-1
+Added Pin To Net: NetName=5V_DIG_BUS Pin=C11-2
+Added Pin To Net: NetName=AGND Pin=C12-1
+Added Pin To Net: NetName=5V_DIG_BUS Pin=C12-2
+Added Pin To Net: NetName=AGND Pin=C13-1
+Added Pin To Net: NetName=5V_DIG_BUS Pin=C13-2
+Added Pin To Net: NetName=AGND Pin=C14-1
+Added Pin To Net: NetName=5V_DIG_BUS Pin=C14-2
+Added Pin To Net: NetName=8V_BUS Pin=C15-1
+Added Pin To Net: NetName=AGND Pin=C15-2
+Added Pin To Net: NetName=5V_ANA_BUS Pin=C16-1
+Added Pin To Net: NetName=AGND Pin=C16-2
+Added Pin To Net: NetName=8V_BUS Pin=C17-1
+Added Pin To Net: NetName=AGND Pin=C17-2
+Added Pin To Net: NetName=5V_ANA_BUS Pin=C18-1
+Added Pin To Net: NetName=AGND Pin=C18-2
+Added Pin To Net: NetName=8V_BUS Pin=C19-1
+Added Pin To Net: NetName=AGND Pin=C19-2
+Added Pin To Net: NetName=5V_ANA_BUS Pin=C20-1
+Added Pin To Net: NetName=AGND Pin=C20-2
+Added Pin To Net: NetName=8V_BUS Pin=C21-1
+Added Pin To Net: NetName=AGND Pin=C21-2
+Added Pin To Net: NetName=5V_ANA_BUS Pin=C22-1
+Added Pin To Net: NetName=AGND Pin=C22-2
+Added Pin To Net: NetName=AGND Pin=C23-1
+Added Pin To Net: NetName=8V_BUS Pin=C23-2
+Added Pin To Net: NetName=AGND Pin=C24-1
+Added Pin To Net: NetName=8V_BUS Pin=C24-2
+Added Pin To Net: NetName=AGND Pin=C25-1
+Added Pin To Net: NetName=5V_ANA_BUS Pin=C25-2
+Added Pin To Net: NetName=AGND Pin=C26-1
+Added Pin To Net: NetName=5V_ANA_BUS Pin=C26-2
+Added Pin To Net: NetName=AGND Pin=C27-1
+Added Pin To Net: NetName=8V_BUS Pin=C27-2
+Added Pin To Net: NetName=AGND Pin=C28-1
+Added Pin To Net: NetName=8V_BUS Pin=C28-2
+Added Pin To Net: NetName=AGND Pin=C29-1
+Added Pin To Net: NetName=5V_ANA_BUS Pin=C29-2
+Added Pin To Net: NetName=AGND Pin=C30-1
+Added Pin To Net: NetName=5V_ANA_BUS Pin=C30-2
+Added Pin To Net: NetName=AGND Pin=C31-1
+Added Pin To Net: NetName=8V_BUS Pin=C31-2
+Added Pin To Net: NetName=AGND Pin=C32-1
+Added Pin To Net: NetName=8V_BUS Pin=C32-2
+Added Pin To Net: NetName=AGND Pin=C33-1
+Added Pin To Net: NetName=5V_ANA_BUS Pin=C33-2
+Added Pin To Net: NetName=AGND Pin=C34-1
+Added Pin To Net: NetName=5V_ANA_BUS Pin=C34-2
+Added Pin To Net: NetName=AGND Pin=C35-1
+Added Pin To Net: NetName=8V_BUS Pin=C35-2
+Added Pin To Net: NetName=AGND Pin=C36-1
+Added Pin To Net: NetName=8V_BUS Pin=C36-2
+Added Pin To Net: NetName=AGND Pin=C37-1
+Added Pin To Net: NetName=5V_ANA_BUS Pin=C37-2
+Added Pin To Net: NetName=AGND Pin=C38-1
+Added Pin To Net: NetName=5V_ANA_BUS Pin=C38-2
+Added Pin To Net: NetName=DGND Pin=U1-8
+Added Pin To Net: NetName=DGND Pin=U2-8
+Added Pin To Net: NetName=DGND Pin=U2-12
+Added Pin To Net: NetName=3.3V_DIG Pin=C1-1
+Added Pin To Net: NetName=3.3V_DIG Pin=C2-1
+Added Pin To Net: NetName=3.3V_DIG Pin=U1-4
+Added Pin To Net: NetName=3.3V_DIG Pin=U1-12
+Added Pin To Net: NetName=3.3V_DIG Pin=U1-16
+Added Pin To Net: NetName=3.3V_DIG Pin=U2-4
+Added Pin To Net: NetName=3.3V_DIG Pin=U2-16
+Added Net: Name=3.3V_DIG
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C1 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C2 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C3 Cap Pol1
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C4 Cap Pol1
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C5 Cap Pol1
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C6 Cap Pol1
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C7 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C8 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C9 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C10 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C11 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C12 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C13 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C14 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C15 Cap Pol1
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C16 Cap Pol1
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C17 Cap Pol1
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C18 Cap Pol1
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C19 Cap Pol1
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C20 Cap Pol1
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C21 Cap Pol1
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C22 Cap Pol1
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C23 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C24 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C25 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C26 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C27 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C28 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C29 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C30 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C31 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C32 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C33 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C34 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C35 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C36 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C37 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C38 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component U1 MAX3094, Rx
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component U2 MAX3030, Tx

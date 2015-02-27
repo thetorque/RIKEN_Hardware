@@ -1,0 +1,16 @@
+Added Pin To Net: NetName=BUS6_N Pin=U9-2
+Added Pin To Net: NetName=BUS6_P Pin=U9-3
+Added Pin To Net: NetName=BUS7_P Pin=U9-5
+Added Pin To Net: NetName=BUS7_N Pin=U9-6
+Added Pin To Net: NetName=BUS4_N Pin=U9-10
+Added Pin To Net: NetName=BUS4_P Pin=U9-11
+Added Pin To Net: NetName=BUS5_P Pin=U9-13
+Added Pin To Net: NetName=BUS5_N Pin=U9-14
+Added Pin To Net: NetName=BUS4 Pin=U9-9
+Added Net: Name=BUS4
+Added Pin To Net: NetName=BUS5 Pin=U9-15
+Added Net: Name=BUS5
+Added Pin To Net: NetName=BUS6 Pin=U9-1
+Added Net: Name=BUS6
+Added Pin To Net: NetName=BUS7 Pin=U9-7
+Added Net: Name=BUS7

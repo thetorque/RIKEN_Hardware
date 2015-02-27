@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=DGND Pin=P8-2
+Added Pin To Net: NetName=DGND Pin=P8-14
+Added Pin To Net: NetName=DGND Pin=P8-35
+Added Pin To Net: NetName=TTL_OUT_34 Pin=P10-2
+Added Pin To Net: NetName=TTL_OUT_32 Pin=P10-4
+Added Pin To Net: NetName=TTL_OUT_30 Pin=P10-6
+Added Pin To Net: NetName=DGND Pin=P10-15
+Added Pin To Net: NetName=DGND Pin=P10-38
+Added Pin To Net: NetName=DGND Pin=P10-40

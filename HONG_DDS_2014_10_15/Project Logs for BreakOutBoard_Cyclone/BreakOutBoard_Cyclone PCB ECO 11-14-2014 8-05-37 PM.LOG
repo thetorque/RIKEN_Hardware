@@ -1,0 +1,74 @@
+Added Component: Designator=C?(CAPC2012L)
+Added Component: Designator=C?(CAPC2012L)
+Added Component: Designator=C?(CAPC2012L)
+Added Component: Designator=C?(CAPC2012L)
+Added Component: Designator=P?(BNC_RA CON)
+Added Component: Designator=P?(BNC_RA CON)
+Added Component: Designator=P?(BNC_RA CON)
+Added Component: Designator=P?(BNC_RA CON)
+Added Component: Designator=U?(SOT23-6)
+Added Component: Designator=U?(SOT23-6)
+Added Component: Designator=U?(SOT23-6)
+Added Component: Designator=U?(SOT23-6)
+Added Pin To Net: NetName=DGND Pin=C?-1
+Added Pin To Net: NetName=DGND Pin=C?-1
+Added Pin To Net: NetName=DGND Pin=C?-1
+Added Pin To Net: NetName=DGND Pin=C?-1
+Added Pin To Net: NetName=3.3V_DIG Pin=C?-2
+Added Pin To Net: NetName=3.3V_DIG Pin=C?-2
+Added Pin To Net: NetName=3.3V_DIG Pin=C?-2
+Added Pin To Net: NetName=3.3V_DIG Pin=C?-2
+Added Pin To Net: NetName=DGND Pin=P?-2
+Added Pin To Net: NetName=DGND Pin=P?-2
+Added Pin To Net: NetName=DGND Pin=P?-2
+Added Pin To Net: NetName=DGND Pin=P?-2
+Added Pin To Net: NetName=DGND Pin=P?-2
+Added Pin To Net: NetName=DGND Pin=P?-2
+Added Pin To Net: NetName=DGND Pin=P?-2
+Added Pin To Net: NetName=DGND Pin=P?-2
+Added Pin To Net: NetName=DGND Pin=P?-2
+Added Pin To Net: NetName=DGND Pin=P?-2
+Added Pin To Net: NetName=DGND Pin=P?-2
+Added Pin To Net: NetName=DGND Pin=P?-2
+Added Pin To Net: NetName=3.3V_DIG Pin=U?-1
+Added Pin To Net: NetName=3.3V_DIG Pin=U?-1
+Added Pin To Net: NetName=3.3V_DIG Pin=U?-1
+Added Pin To Net: NetName=3.3V_DIG Pin=U?-1
+Added Pin To Net: NetName=DGND Pin=U?-2
+Added Pin To Net: NetName=DGND Pin=U?-2
+Added Pin To Net: NetName=DGND Pin=U?-2
+Added Pin To Net: NetName=DGND Pin=U?-2
+Added Pin To Net: NetName=3.3V_DIG Pin=U?-5
+Added Pin To Net: NetName=3.3V_DIG Pin=U?-5
+Added Pin To Net: NetName=3.3V_DIG Pin=U?-5
+Added Pin To Net: NetName=3.3V_DIG Pin=U?-5
+Added Pin To Net: NetName=3.3V_DIG Pin=U?-6
+Added Pin To Net: NetName=3.3V_DIG Pin=U?-6
+Added Pin To Net: NetName=3.3V_DIG Pin=U?-6
+Added Pin To Net: NetName=3.3V_DIG Pin=U?-6
+Added Pin To Net: NetName=AUX_CLK_IN Pin=U11-1A11
+Added Pin To Net: NetName=AUX_CLK_IN Pin=U?-4
+Added Net: Name=AUX_CLK_IN
+Added Pin To Net: NetName=AUX_IN_1 Pin=U11-1C16
+Added Pin To Net: NetName=AUX_IN_1 Pin=U?-4
+Added Net: Name=AUX_IN_1
+Added Pin To Net: NetName=NetP?_1 Pin=P?-1
+Added Pin To Net: NetName=NetP?_1 Pin=U?-3
+Added Net: Name=NetP?_1
+Added Pin To Net: NetName=PMT_IN Pin=U11-1C20
+Added Pin To Net: NetName=PMT_IN Pin=U?-4
+Added Net: Name=PMT_IN
+Added Pin To Net: NetName=TRIGGER_IN Pin=U11-1C18
+Added Net: Name=TRIGGER_IN
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C? Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C? Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C? Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C? Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component P? AUX
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component P? TRIGGER
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component P? PMT
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component P? CLK_IN
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component U? SN74LVC1T45
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component U? SN74LVC1T45
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component U? SN74LVC1T45
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component U? SN74LVC1T45

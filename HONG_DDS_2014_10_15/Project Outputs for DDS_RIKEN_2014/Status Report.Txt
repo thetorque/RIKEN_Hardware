@@ -1,0 +1,24 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Project [DDS_RIKEN_2014.PrjPcb]
+   Generated File[DDS_RIKEN_2014.GTL]
+   Generated File[DDS_RIKEN_2014.G1]
+   Generated File[DDS_RIKEN_2014.G2]
+   Generated File[DDS_RIKEN_2014.GBL]
+   Generated File[DDS_RIKEN_2014.GTO]
+   Generated File[DDS_RIKEN_2014.GTP]
+   Generated File[DDS_RIKEN_2014.GTS]
+   Generated File[DDS_RIKEN_2014.GBS]
+   Generated File[DDS_RIKEN_2014.GBP]
+   Generated File[DDS_RIKEN_2014.GBO]
+   Generated File[DDS_RIKEN_2014.GM4]
+   Generated File[DDS_RIKEN_2014.GKO]
+   Generated File[DDS_RIKEN_2014.RUL]
+   Generated File[DDS_RIKEN_2014.EXTREP]
+   Generated File[DDS_RIKEN_2014.REP]
+
+
+Files Generated   : 15
+Documents Printed : 0
+
+Finished Output Generation At 11:10:49 AM On 2/5/2015

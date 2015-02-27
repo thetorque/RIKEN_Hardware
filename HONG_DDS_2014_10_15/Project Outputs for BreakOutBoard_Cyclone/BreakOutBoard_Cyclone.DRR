@@ -1,0 +1,24 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: BreakOutBoard_Cyclone.PcbDoc   12/17/2014  10:34:06 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : BreakOutBoard_Cyclone.TXT
+EIA File   : BreakOutBoard_Cyclone.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        11.81mil (0.29997mm)     Round          50               50.91 Inch (1293.15 mm)
+T2        19.68mil (0.49987mm)     Round          1                0.00 Inch (0.00 mm)
+T3        23.62mil (0.59995mm)     Round          160              18.51 Inch (470.09 mm)
+T4        27.56mil (0.70002mm)     Round          240              34.58 Inch (878.34 mm)
+T5        30mil (0.762mm)          Round          5                3.70 Inch (94.01 mm)
+T6        35.43mil (0.89992mm)     Round          68               23.33 Inch (592.66 mm)
+T7        40.16mil (1.02006mm)     Round          1920             223.00 Inch (5664.25 mm)
+T8        78.74mil (2mm)           Round          8                3.09 Inch (78.40 mm)
+T9        96.06mil (2.43992mm)     Round          32               36.27 Inch (921.21 mm)
+T10       177.17mil (4.50012mm)    Round          6                41.64 Inch (1057.72 mm)
+---------------------------------------------------------------------------
+Totals                                            2490             435.03 Inch (11049.84 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:01

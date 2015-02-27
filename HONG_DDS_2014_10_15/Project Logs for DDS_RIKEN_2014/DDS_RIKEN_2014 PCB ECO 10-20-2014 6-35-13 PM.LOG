@@ -1,0 +1,253 @@
+Added Component: Designator=C38(B)
+Added Component: Designator=C39(B)
+Added Component: Designator=C42(B)
+Added Component: Designator=C43(B)
+Added Component: Designator=C46(B)
+Added Component: Designator=C47(B)
+Added Component: Designator=C50(B)
+Added Component: Designator=C51(B)
+Added Component: Designator=C54(B)
+Added Component: Designator=C55(B)
+Added Component: Designator=C56(B)
+Added Component: Designator=C57(B)
+Added Component: Designator=C63(B)
+Added Component: Designator=C64(B)
+Added Component: Designator=U4(TSSOP16)
+Added Component: Designator=U5(TSSOP16)
+Added Component: Designator=U6(TSSOP16)
+Added Component: Designator=U7(TSSOP16)
+Added Component: Designator=U8(TSSOP16)
+Added Component: Designator=U9(TSSOP16)
+Added Component: Designator=U10(TSSOP16)
+Added Component: Designator=U11(TSSOP16)
+Added Component: Designator=U12(TSSOP16)
+Added Component: Designator=U13(TS3B_N)
+Added Component: Designator=U14(TS3B_N)
+Added Component: Designator=U15(TS3B_N)
+Added Component: Designator=U16(TS3B_N)
+Added Component: Designator=U17(TS3B_N)
+Added Component: Designator=U18(MF05A_N)
+Added Component: Designator=U19(TS3B_N)
+Added Component: Designator=U20(TSSOP16)
+Added Pin To Net: NetName=5V Pin=C38-1
+Added Pin To Net: NetName=AGND Pin=C38-2
+Added Pin To Net: NetName=5V_ANA_BUS Pin=C39-1
+Added Pin To Net: NetName=AGND Pin=C39-2
+Added Pin To Net: NetName=3.3V_ANA Pin=C42-1
+Added Pin To Net: NetName=AGND Pin=C42-2
+Added Pin To Net: NetName=5V_DIG_BUS Pin=C43-1
+Added Pin To Net: NetName=DGND Pin=C43-2
+Added Pin To Net: NetName=8V_BUS Pin=C46-1
+Added Pin To Net: NetName=AGND Pin=C46-2
+Added Pin To Net: NetName=1.8V_DIG Pin=C47-1
+Added Pin To Net: NetName=DGND Pin=C47-2
+Added Pin To Net: NetName=5V_DIG_BUS Pin=C50-1
+Added Pin To Net: NetName=DGND Pin=C50-2
+Added Pin To Net: NetName=3.3V_DIG Pin=C51-1
+Added Pin To Net: NetName=DGND Pin=C51-2
+Added Pin To Net: NetName=3.3V_DIG Pin=C54-1
+Added Pin To Net: NetName=DGND Pin=C54-2
+Added Pin To Net: NetName=1.2V_DIG Pin=C55-1
+Added Pin To Net: NetName=DGND Pin=C55-2
+Added Pin To Net: NetName=5V_ANA_BUS Pin=C56-1
+Added Pin To Net: NetName=AGND Pin=C56-2
+Added Pin To Net: NetName=1.8V_ANA Pin=C57-1
+Added Pin To Net: NetName=AGND Pin=C57-2
+Added Pin To Net: NetName=5V_DIG_BUS Pin=C63-1
+Added Pin To Net: NetName=AGND Pin=C63-2
+Added Pin To Net: NetName=2.5V Pin=C64-1
+Added Pin To Net: NetName=AGND Pin=C64-2
+Added Pin To Net: NetName=BUS0_N Pin=U4-1
+Added Pin To Net: NetName=BUS0_P Pin=U4-2
+Added Pin To Net: NetName=BUS0 Pin=U4-3
+Added Pin To Net: NetName=3.3V_DIG Pin=U4-4
+Added Pin To Net: NetName=BUS1 Pin=U4-5
+Added Pin To Net: NetName=BUS1_P Pin=U4-6
+Added Pin To Net: NetName=BUS1_N Pin=U4-7
+Added Pin To Net: NetName=DGND Pin=U4-8
+Added Pin To Net: NetName=BUS2_N Pin=U4-9
+Added Pin To Net: NetName=BUS2_P Pin=U4-10
+Added Pin To Net: NetName=BUS2 Pin=U4-11
+Added Pin To Net: NetName=3.3V_DIG Pin=U4-12
+Added Pin To Net: NetName=BUS3 Pin=U4-13
+Added Pin To Net: NetName=BUS3_P Pin=U4-14
+Added Pin To Net: NetName=BUS3_N Pin=U4-15
+Added Pin To Net: NetName=3.3V_DIG Pin=U4-16
+Added Pin To Net: NetName=BUS12_N Pin=U5-1
+Added Pin To Net: NetName=BUS12_P Pin=U5-2
+Added Pin To Net: NetName=BUS12 Pin=U5-3
+Added Pin To Net: NetName=3.3V_DIG Pin=U5-4
+Added Pin To Net: NetName=BUS13 Pin=U5-5
+Added Pin To Net: NetName=BUS13_P Pin=U5-6
+Added Pin To Net: NetName=BUS13_N Pin=U5-7
+Added Pin To Net: NetName=DGND Pin=U5-8
+Added Pin To Net: NetName=BUS14_N Pin=U5-9
+Added Pin To Net: NetName=BUS14_P Pin=U5-10
+Added Pin To Net: NetName=BUS14 Pin=U5-11
+Added Pin To Net: NetName=3.3V_DIG Pin=U5-12
+Added Pin To Net: NetName=BUS15 Pin=U5-13
+Added Pin To Net: NetName=BUS15_P Pin=U5-14
+Added Pin To Net: NetName=BUS15_N Pin=U5-15
+Added Pin To Net: NetName=3.3V_DIG Pin=U5-16
+Added Pin To Net: NetName=BUS24_N Pin=U6-1
+Added Pin To Net: NetName=BUS24_P Pin=U6-2
+Added Pin To Net: NetName=BUS24 Pin=U6-3
+Added Pin To Net: NetName=3.3V_DIG Pin=U6-4
+Added Pin To Net: NetName=BUS25 Pin=U6-5
+Added Pin To Net: NetName=BUS25_P Pin=U6-6
+Added Pin To Net: NetName=BUS25_N Pin=U6-7
+Added Pin To Net: NetName=DGND Pin=U6-8
+Added Pin To Net: NetName=BUS26_N Pin=U6-9
+Added Pin To Net: NetName=BUS26_P Pin=U6-10
+Added Pin To Net: NetName=BUS26 Pin=U6-11
+Added Pin To Net: NetName=3.3V_DIG Pin=U6-12
+Added Pin To Net: NetName=BUS27 Pin=U6-13
+Added Pin To Net: NetName=BUS27_P Pin=U6-14
+Added Pin To Net: NetName=BUS27_N Pin=U6-15
+Added Pin To Net: NetName=3.3V_DIG Pin=U6-16
+Added Pin To Net: NetName=BUS32 Pin=U7-1
+Added Pin To Net: NetName=BUS32_P Pin=U7-2
+Added Pin To Net: NetName=BUS32_N Pin=U7-3
+Added Pin To Net: NetName=TX_0_EN Pin=U7-4
+Added Pin To Net: NetName=BUS33_N Pin=U7-5
+Added Pin To Net: NetName=BUS33_P Pin=U7-6
+Added Pin To Net: NetName=BUS33 Pin=U7-7
+Added Pin To Net: NetName=DGND Pin=U7-8
+Added Pin To Net: NetName=BUS34 Pin=U7-9
+Added Pin To Net: NetName=BUS34_P Pin=U7-10
+Added Pin To Net: NetName=BUS34_N Pin=U7-11
+Added Pin To Net: NetName=3.3V_DIG Pin=U7-12
+Added Pin To Net: NetName=BUS35_N Pin=U7-13
+Added Pin To Net: NetName=BUS35_P Pin=U7-14
+Added Pin To Net: NetName=BUS35 Pin=U7-15
+Added Pin To Net: NetName=3.3V_DIG Pin=U7-16
+Added Pin To Net: NetName=BUS4_N Pin=U8-1
+Added Pin To Net: NetName=BUS4_P Pin=U8-2
+Added Pin To Net: NetName=BUS4 Pin=U8-3
+Added Pin To Net: NetName=3.3V_DIG Pin=U8-4
+Added Pin To Net: NetName=BUS5 Pin=U8-5
+Added Pin To Net: NetName=BUS5_P Pin=U8-6
+Added Pin To Net: NetName=BUS5_N Pin=U8-7
+Added Pin To Net: NetName=DGND Pin=U8-8
+Added Pin To Net: NetName=BUS6_N Pin=U8-9
+Added Pin To Net: NetName=BUS6_P Pin=U8-10
+Added Pin To Net: NetName=BUS6 Pin=U8-11
+Added Pin To Net: NetName=3.3V_DIG Pin=U8-12
+Added Pin To Net: NetName=BUS7 Pin=U8-13
+Added Pin To Net: NetName=BUS7_P Pin=U8-14
+Added Pin To Net: NetName=BUS7_N Pin=U8-15
+Added Pin To Net: NetName=3.3V_DIG Pin=U8-16
+Added Pin To Net: NetName=BUS16_N Pin=U9-1
+Added Pin To Net: NetName=BUS16_P Pin=U9-2
+Added Pin To Net: NetName=BUS16 Pin=U9-3
+Added Pin To Net: NetName=3.3V_DIG Pin=U9-4
+Added Pin To Net: NetName=BUS17 Pin=U9-5
+Added Pin To Net: NetName=BUS17_P Pin=U9-6
+Added Pin To Net: NetName=BUS17_N Pin=U9-7
+Added Pin To Net: NetName=DGND Pin=U9-8
+Added Pin To Net: NetName=BUS18_N Pin=U9-9
+Added Pin To Net: NetName=BUS18_P Pin=U9-10
+Added Pin To Net: NetName=BUS18 Pin=U9-11
+Added Pin To Net: NetName=3.3V_DIG Pin=U9-12
+Added Pin To Net: NetName=BUS19 Pin=U9-13
+Added Pin To Net: NetName=BUS19_P Pin=U9-14
+Added Pin To Net: NetName=BUS19_N Pin=U9-15
+Added Pin To Net: NetName=3.3V_DIG Pin=U9-16
+Added Pin To Net: NetName=BUS28_N Pin=U10-1
+Added Pin To Net: NetName=BUS28_P Pin=U10-2
+Added Pin To Net: NetName=BUS28 Pin=U10-3
+Added Pin To Net: NetName=3.3V_DIG Pin=U10-4
+Added Pin To Net: NetName=BUS29 Pin=U10-5
+Added Pin To Net: NetName=BUS29_P Pin=U10-6
+Added Pin To Net: NetName=BUS29_N Pin=U10-7
+Added Pin To Net: NetName=DGND Pin=U10-8
+Added Pin To Net: NetName=BUS30_N Pin=U10-9
+Added Pin To Net: NetName=BUS30_P Pin=U10-10
+Added Pin To Net: NetName=BUS30 Pin=U10-11
+Added Pin To Net: NetName=3.3V_DIG Pin=U10-12
+Added Pin To Net: NetName=BUS31 Pin=U10-13
+Added Pin To Net: NetName=BUS31_P Pin=U10-14
+Added Pin To Net: NetName=BUS31_N Pin=U10-15
+Added Pin To Net: NetName=3.3V_DIG Pin=U10-16
+Added Pin To Net: NetName=BUS36 Pin=U11-1
+Added Pin To Net: NetName=BUS36_P Pin=U11-2
+Added Pin To Net: NetName=BUS36_N Pin=U11-3
+Added Pin To Net: NetName=TX_1_EN Pin=U11-4
+Added Pin To Net: NetName=BUS37_N Pin=U11-5
+Added Pin To Net: NetName=BUS37_P Pin=U11-6
+Added Pin To Net: NetName=BUS37 Pin=U11-7
+Added Pin To Net: NetName=DGND Pin=U11-8
+Added Pin To Net: NetName=BUS38 Pin=U11-9
+Added Pin To Net: NetName=BUS38_P Pin=U11-10
+Added Pin To Net: NetName=BUS38_N Pin=U11-11
+Added Pin To Net: NetName=3.3V_DIG Pin=U11-12
+Added Pin To Net: NetName=BUS39_N Pin=U11-13
+Added Pin To Net: NetName=BUS39_P Pin=U11-14
+Added Pin To Net: NetName=BUS39 Pin=U11-15
+Added Pin To Net: NetName=3.3V_DIG Pin=U11-16
+Added Pin To Net: NetName=BUS8_N Pin=U12-1
+Added Pin To Net: NetName=BUS8_P Pin=U12-2
+Added Pin To Net: NetName=BUS8 Pin=U12-3
+Added Pin To Net: NetName=3.3V_DIG Pin=U12-4
+Added Pin To Net: NetName=BUS9 Pin=U12-5
+Added Pin To Net: NetName=BUS9_P Pin=U12-6
+Added Pin To Net: NetName=BUS9_N Pin=U12-7
+Added Pin To Net: NetName=DGND Pin=U12-8
+Added Pin To Net: NetName=BUS10_N Pin=U12-9
+Added Pin To Net: NetName=BUS10_P Pin=U12-10
+Added Pin To Net: NetName=BUS10 Pin=U12-11
+Added Pin To Net: NetName=3.3V_DIG Pin=U12-12
+Added Pin To Net: NetName=BUS11 Pin=U12-13
+Added Pin To Net: NetName=BUS11_P Pin=U12-14
+Added Pin To Net: NetName=BUS11_N Pin=U12-15
+Added Pin To Net: NetName=3.3V_DIG Pin=U12-16
+Added Pin To Net: NetName=AGND Pin=U13-1
+Added Pin To Net: NetName=5V Pin=U13-2
+Added Pin To Net: NetName=8V_BUS Pin=U13-3
+Added Pin To Net: NetName=AGND Pin=U14-1
+Added Pin To Net: NetName=3.3V_ANA Pin=U14-2
+Added Pin To Net: NetName=5V_ANA_BUS Pin=U14-3
+Added Pin To Net: NetName=DGND Pin=U15-1
+Added Pin To Net: NetName=1.8V_DIG Pin=U15-2
+Added Pin To Net: NetName=5V_DIG_BUS Pin=U15-3
+Added Pin To Net: NetName=AGND Pin=U16-1
+Added Pin To Net: NetName=2.5V Pin=U16-2
+Added Pin To Net: NetName=5V_DIG_BUS Pin=U16-3
+Added Pin To Net: NetName=DGND Pin=U17-1
+Added Pin To Net: NetName=3.3V_DIG Pin=U17-2
+Added Pin To Net: NetName=5V_DIG_BUS Pin=U17-3
+Added Pin To Net: NetName=3.3V_DIG Pin=U18-1
+Added Pin To Net: NetName=DGND Pin=U18-2
+Added Pin To Net: NetName=3.3V_DIG Pin=U18-3
+Added Pin To Net: NetName=NetC62_2 Pin=U18-4
+Added Pin To Net: NetName=1.2V_DIG Pin=U18-5
+Added Pin To Net: NetName=AGND Pin=U19-1
+Added Pin To Net: NetName=1.8V_ANA Pin=U19-2
+Added Pin To Net: NetName=5V_ANA_BUS Pin=U19-3
+Added Pin To Net: NetName=BUS20_N Pin=U20-1
+Added Pin To Net: NetName=BUS20_P Pin=U20-2
+Added Pin To Net: NetName=BUS20 Pin=U20-3
+Added Pin To Net: NetName=3.3V_DIG Pin=U20-4
+Added Pin To Net: NetName=BUS21 Pin=U20-5
+Added Pin To Net: NetName=BUS21_P Pin=U20-6
+Added Pin To Net: NetName=BUS21_N Pin=U20-7
+Added Pin To Net: NetName=DGND Pin=U20-8
+Added Pin To Net: NetName=BUS22_N Pin=U20-9
+Added Pin To Net: NetName=BUS22_P Pin=U20-10
+Added Pin To Net: NetName=BUS22 Pin=U20-11
+Added Pin To Net: NetName=3.3V_DIG Pin=U20-12
+Added Pin To Net: NetName=BUS23 Pin=U20-13
+Added Pin To Net: NetName=BUS23_P Pin=U20-14
+Added Pin To Net: NetName=BUS23_N Pin=U20-15
+Added Pin To Net: NetName=3.3V_DIG Pin=U20-16
+Added Class: Name=Power
+Added Member To Class: ClassName=DDS_RIKEN_main Member=Component U4 MAX3094
+Added Member To Class: ClassName=DDS_RIKEN_main Member=Component U5 MAX3094
+Added Member To Class: ClassName=DDS_RIKEN_main Member=Component U6 MAX3094
+Added Member To Class: ClassName=DDS_RIKEN_main Member=Component U7 MAX3030
+Added Member To Class: ClassName=DDS_RIKEN_main Member=Component U8 MAX3094
+Added Member To Class: ClassName=DDS_RIKEN_main Member=Component U9 MAX3094
+Added Member To Class: ClassName=DDS_RIKEN_main Member=Component U10 MAX3094
+Added Member To Class: ClassName=DDS_RIKEN_main Member=Component U11 MAX3030
+Added Member To Class: ClassName=DDS_RIKEN_main Member=Component U12 MAX3094
+Added Member To Class: ClassName=DDS_RIKEN_main Member=Component U20 MAX3094

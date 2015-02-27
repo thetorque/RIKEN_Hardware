@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=AGND Pin=U26-1
+Removed Pin From Net: NetName=AGND Pin=U26-3
+Removed Pin From Net: NetName=NetT1_4 Pin=U26-4
+Removed Member From Class: ClassName=DDS_RIKEN_main Member=U29
+Change Component Comment : Designator=U28 Old Comment=LAT-10+ New Comment=LAT-5+
+Change Component Designator: OldDesignator=U29 NewDesignator=U26
+Added Pin To Net: NetName=NetT1_4 Pin=U27-1

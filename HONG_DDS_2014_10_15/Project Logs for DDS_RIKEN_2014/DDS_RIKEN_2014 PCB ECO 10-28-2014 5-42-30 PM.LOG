@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=IOUT- Pin=R22-1
+Removed Pin From Net: NetName=IOUT+ Pin=R22-2
+Removed Pin From Net: NetName=IOUT- Pin=T1-1
+Removed Pin From Net: NetName=IOUT+ Pin=T1-3
+Removed Member From Class: ClassName=DDS_RIKEN_main Member=R22
+Change Component Comment : Designator=T1 Old Comment=TC1-1T+ New Comment=TC1-1TX+
+Change Component Comment : Designator=T2 Old Comment=TC1-1T+ New Comment=TC1-1TX+
+Change Component Comment : Designator=T3 Old Comment=TC1-1T+ New Comment=TC1-1TX+
+Added Component: Designator=C?(c0805)
+Added Component: Designator=C?(c0805)
+Added Pin To Net: NetName=IOUT+ Pin=C?-2
+Added Pin To Net: NetName=IOUT- Pin=C?-2
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=T1-1
+Added Net: Name=NetC?_1
+Added Member To Class: ClassName=DDS_RIKEN_main Member=Component C? Cap
+Added Member To Class: ClassName=DDS_RIKEN_main Member=Component C? Cap

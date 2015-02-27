@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=5V Pin=C71-1
+Removed Pin From Net: NetName=AGND Pin=C71-2
+Removed Member From Class: ClassName=DDS_RIKEN_main Member=C71

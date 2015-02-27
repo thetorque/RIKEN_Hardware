@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [BreakOutBoard_Cyclone.PrjPcb]
+   Generated File[BreakOutBoard_Cyclone.TXT]
+   Generated File[BreakOutBoard_Cyclone.DRL]
+   Generated File[BreakOutBoard_Cyclone.LDP]
+   Generated File[BreakOutBoard_Cyclone.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 10:34:07 PM On 12/17/2014

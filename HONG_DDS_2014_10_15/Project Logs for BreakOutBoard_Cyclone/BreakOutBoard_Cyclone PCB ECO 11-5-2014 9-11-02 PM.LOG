@@ -1,0 +1,160 @@
+Added Component: Designator=R1(RESC3216L)
+Added Component: Designator=R2(RESC3216L)
+Added Component: Designator=R3(RESC3216L)
+Added Component: Designator=R4(RESC3216L)
+Added Component: Designator=R5(RESC3216L)
+Added Component: Designator=R6(RESC3216L)
+Added Component: Designator=R7(RESC3216L)
+Added Component: Designator=R8(RESC3216L)
+Added Component: Designator=R9(RESC3216L)
+Added Component: Designator=R10(RESC3216L)
+Added Component: Designator=R11(RESC3216L)
+Added Component: Designator=R12(RESC3216L)
+Added Component: Designator=R13(RESC3216L)
+Added Component: Designator=R14(RESC3216L)
+Added Component: Designator=R15(RESC3216L)
+Added Component: Designator=R16(RESC3216L)
+Added Component: Designator=R17(RESC3216L)
+Added Component: Designator=R18(RESC3216L)
+Added Component: Designator=R19(RESC3216L)
+Added Component: Designator=R20(RESC3216L)
+Added Component: Designator=R21(RESC3216L)
+Added Component: Designator=R22(RESC3216L)
+Added Component: Designator=R23(RESC3216L)
+Added Component: Designator=R24(RESC3216L)
+Added Component: Designator=R25(RESC3216L)
+Added Component: Designator=R26(RESC3216L)
+Added Component: Designator=R27(RESC3216L)
+Added Component: Designator=R28(RESC3216L)
+Added Component: Designator=R29(RESC3216L)
+Added Component: Designator=R30(RESC3216L)
+Added Component: Designator=R31(RESC3216L)
+Added Component: Designator=R32(RESC3216L)
+Added Component: Designator=R33(RESC3216L)
+Added Component: Designator=R34(RESC3216L)
+Added Component: Designator=R35(RESC3216L)
+Added Component: Designator=R36(RESC3216L)
+Added Component: Designator=R37(RESC3216L)
+Added Component: Designator=R38(RESC3216L)
+Added Component: Designator=R39(RESC3216L)
+Added Component: Designator=R40(RESC3216L)
+Added Pin To Net: NetName=BUS0_N Pin=R1-1
+Added Pin To Net: NetName=BUS0_P Pin=R1-2
+Added Pin To Net: NetName=BUS1_N Pin=R2-1
+Added Pin To Net: NetName=BUS1_P Pin=R2-2
+Added Pin To Net: NetName=BUS2_N Pin=R3-1
+Added Pin To Net: NetName=BUS2_P Pin=R3-2
+Added Pin To Net: NetName=BUS3_N Pin=R4-1
+Added Pin To Net: NetName=BUS3_P Pin=R4-2
+Added Pin To Net: NetName=BUS4_N Pin=R5-1
+Added Pin To Net: NetName=BUS4_P Pin=R5-2
+Added Pin To Net: NetName=BUS5_N Pin=R6-1
+Added Pin To Net: NetName=BUS5_P Pin=R6-2
+Added Pin To Net: NetName=BUS6_N Pin=R7-1
+Added Pin To Net: NetName=BUS6_P Pin=R7-2
+Added Pin To Net: NetName=BUS7_N Pin=R8-1
+Added Pin To Net: NetName=BUS7_P Pin=R8-2
+Added Pin To Net: NetName=BUS8_N Pin=R9-1
+Added Pin To Net: NetName=BUS8_P Pin=R9-2
+Added Pin To Net: NetName=BUS9_N Pin=R10-1
+Added Pin To Net: NetName=BUS9_P Pin=R10-2
+Added Pin To Net: NetName=BUS10_N Pin=R11-1
+Added Pin To Net: NetName=BUS10_P Pin=R11-2
+Added Pin To Net: NetName=BUS11_N Pin=R12-1
+Added Pin To Net: NetName=BUS11_P Pin=R12-2
+Added Pin To Net: NetName=BUS12_N Pin=R13-1
+Added Pin To Net: NetName=BUS12_P Pin=R13-2
+Added Pin To Net: NetName=BUS13_N Pin=R14-1
+Added Pin To Net: NetName=BUS13_P Pin=R14-2
+Added Pin To Net: NetName=BUS14_N Pin=R15-1
+Added Pin To Net: NetName=BUS14_P Pin=R15-2
+Added Pin To Net: NetName=BUS15_N Pin=R16-1
+Added Pin To Net: NetName=BUS15_P Pin=R16-2
+Added Pin To Net: NetName=BUS16_N Pin=R17-1
+Added Pin To Net: NetName=BUS16_P Pin=R17-2
+Added Pin To Net: NetName=BUS17_N Pin=R18-1
+Added Pin To Net: NetName=BUS17_P Pin=R18-2
+Added Pin To Net: NetName=BUS18_N Pin=R19-1
+Added Pin To Net: NetName=BUS18_P Pin=R19-2
+Added Pin To Net: NetName=BUS19_N Pin=R20-1
+Added Pin To Net: NetName=BUS19_P Pin=R20-2
+Added Pin To Net: NetName=BUS20_N Pin=R21-1
+Added Pin To Net: NetName=BUS20_P Pin=R21-2
+Added Pin To Net: NetName=BUS21_N Pin=R22-1
+Added Pin To Net: NetName=BUS21_P Pin=R22-2
+Added Pin To Net: NetName=BUS22_N Pin=R23-1
+Added Pin To Net: NetName=BUS22_P Pin=R23-2
+Added Pin To Net: NetName=BUS23_N Pin=R24-1
+Added Pin To Net: NetName=BUS23_P Pin=R24-2
+Added Pin To Net: NetName=BUS24_N Pin=R25-1
+Added Pin To Net: NetName=BUS24_P Pin=R25-2
+Added Pin To Net: NetName=BUS25_N Pin=R26-1
+Added Pin To Net: NetName=BUS25_P Pin=R26-2
+Added Pin To Net: NetName=BUS26_N Pin=R27-1
+Added Pin To Net: NetName=BUS26_P Pin=R27-2
+Added Pin To Net: NetName=BUS27_N Pin=R28-1
+Added Pin To Net: NetName=BUS27_P Pin=R28-2
+Added Pin To Net: NetName=BUS28_N Pin=R29-1
+Added Pin To Net: NetName=BUS28_P Pin=R29-2
+Added Pin To Net: NetName=BUS29_N Pin=R30-1
+Added Pin To Net: NetName=BUS29_P Pin=R30-2
+Added Pin To Net: NetName=BUS30_N Pin=R31-1
+Added Pin To Net: NetName=BUS30_P Pin=R31-2
+Added Pin To Net: NetName=BUS31_N Pin=R32-1
+Added Pin To Net: NetName=BUS31_P Pin=R32-2
+Added Pin To Net: NetName=BUS32_N Pin=R33-1
+Added Pin To Net: NetName=BUS32_P Pin=R33-2
+Added Pin To Net: NetName=BUS33_N Pin=R34-1
+Added Pin To Net: NetName=BUS33_P Pin=R34-2
+Added Pin To Net: NetName=BUS34_N Pin=R35-1
+Added Pin To Net: NetName=BUS34_P Pin=R35-2
+Added Pin To Net: NetName=BUS35_N Pin=R36-1
+Added Pin To Net: NetName=BUS35_P Pin=R36-2
+Added Pin To Net: NetName=BUS36_N Pin=R37-1
+Added Pin To Net: NetName=BUS36_P Pin=R37-2
+Added Pin To Net: NetName=BUS37_N Pin=R38-1
+Added Pin To Net: NetName=BUS37_P Pin=R38-2
+Added Pin To Net: NetName=BUS38_N Pin=R39-1
+Added Pin To Net: NetName=BUS38_P Pin=R39-2
+Added Pin To Net: NetName=BUS39_N Pin=R40-1
+Added Pin To Net: NetName=BUS39_P Pin=R40-2
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R1 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R2 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R3 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R4 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R5 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R6 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R7 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R8 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R9 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R10 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R11 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R12 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R13 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R14 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R15 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R16 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R17 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R18 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R19 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R20 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R21 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R22 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R23 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R24 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R25 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R26 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R27 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R28 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R29 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R30 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R31 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R32 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R33 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R34 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R35 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R36 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R37 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R38 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R39 
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component R40 

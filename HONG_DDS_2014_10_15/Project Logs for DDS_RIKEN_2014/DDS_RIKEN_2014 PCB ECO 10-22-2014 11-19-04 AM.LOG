@@ -1,0 +1,39 @@
+Added Component: Designator=C82(CAPC2012L)
+Added Component: Designator=P4(HDR2X4)
+Added Component: Designator=R14(RESC3216L)
+Added Component: Designator=R16(RESC3216L)
+Added Component: Designator=R17(RESC3216L)
+Added Component: Designator=R18(RESC3216L)
+Added Component: Designator=U25(CSX750F)
+Added Pin To Net: NetName=DGND Pin=C82-1
+Added Pin To Net: NetName=3.3V_DIG Pin=C82-2
+Added Pin To Net: NetName=3.3V_DIG Pin=P4-1
+Added Pin To Net: NetName=IOB8_1 Pin=P4-2
+Added Pin To Net: NetName=3.3V_DIG Pin=P4-3
+Added Pin To Net: NetName=IOB8_2 Pin=P4-4
+Added Pin To Net: NetName=3.3V_DIG Pin=P4-5
+Added Pin To Net: NetName=IOB8_3 Pin=P4-6
+Added Pin To Net: NetName=3.3V_DIG Pin=P4-7
+Added Pin To Net: NetName=IOB8_6 Pin=P4-8
+Added Pin To Net: NetName=IOB8_1 Pin=R14-1
+Added Pin To Net: NetName=DGND Pin=R14-2
+Added Pin To Net: NetName=IOB8_2 Pin=R16-1
+Added Pin To Net: NetName=DGND Pin=R16-2
+Added Pin To Net: NetName=IOB8_3 Pin=R17-1
+Added Pin To Net: NetName=DGND Pin=R17-2
+Added Pin To Net: NetName=IOB8_6 Pin=R18-1
+Added Pin To Net: NetName=DGND Pin=R18-2
+Added Pin To Net: NetName=3.3V_ANA Pin=U21-24
+Added Pin To Net: NetName=3.3V_DIG Pin=U25-1
+Added Pin To Net: NetName=DGND Pin=U25-2
+Added Pin To Net: NetName=3.3V_DIG Pin=U25-4
+Added Pin To Net: NetName=NetU1_E1 Pin=U1-E1
+Added Pin To Net: NetName=NetU1_E1 Pin=U25-3
+Added Net: Name=NetU1_E1
+Added Member To Class: ClassName=FPGA Member=Component C82 Cap Semi
+Added Member To Class: ClassName=DDS_RIKEN_main Member=Component P4 DDS ADDRESS
+Added Member To Class: ClassName=DDS_RIKEN_main Member=Component R14 
+Added Member To Class: ClassName=DDS_RIKEN_main Member=Component R16 
+Added Member To Class: ClassName=DDS_RIKEN_main Member=Component R17 
+Added Member To Class: ClassName=DDS_RIKEN_main Member=Component R18 
+Added Member To Class: ClassName=FPGA Member=Component U25 CSX750F_25

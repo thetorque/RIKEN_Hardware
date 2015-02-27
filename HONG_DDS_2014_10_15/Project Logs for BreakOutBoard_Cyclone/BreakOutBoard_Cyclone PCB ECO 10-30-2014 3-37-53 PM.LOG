@@ -1,0 +1,7 @@
+Added Component: Designator=J?(1-145154-2)
+Added Pin To Net: NetName=8V_BUS Pin=J?-1
+Added Net: Name=8V_BUS
+Added Pin To Net: NetName=AGND Pin=J?-2
+Added Net: Name=AGND
+Added Class: Name=BreakOutBoard_Cyclone
+Added Room: Name=BreakOutBoard_Cyclone

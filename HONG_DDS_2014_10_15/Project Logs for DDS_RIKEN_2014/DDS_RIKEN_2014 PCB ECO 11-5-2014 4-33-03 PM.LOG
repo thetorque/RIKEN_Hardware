@@ -1,0 +1,4 @@
+Added Component: Designator=C93(CAPC2012L)
+Added Pin To Net: NetName=DGND Pin=C93-1
+Added Pin To Net: NetName=3.3V_DIG Pin=C93-2
+Added Member To Class: ClassName=FPGA Member=Component C93 Cap Semi

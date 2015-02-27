@@ -1,0 +1,17 @@
+Added Pin To Net: NetName=3.3V_DIG Pin=C80-2
+Added Pin To Net: NetName=IOB3_18 Pin=U7-4
+Added Pin To Net: NetName=IOB3_17 Pin=U11-4
+Added Pin To Net: NetName=IOB4_14 Pin=U24-1
+Added Pin To Net: NetName=IOB4_13 Pin=U24-2
+Added Pin To Net: NetName=IOB4_17 Pin=U24-3
+Added Pin To Net: NetName=3.3V_DIG Pin=U24-4
+Added Pin To Net: NetName=IOB4_10 Pin=U24-5
+Added Pin To Net: NetName=IOB4_9 Pin=U24-6
+Added Pin To Net: NetName=IOB4_6 Pin=U24-9
+Added Pin To Net: NetName=IOB4_5 Pin=U24-10
+Added Pin To Net: NetName=IOB4_4 Pin=U24-11
+Added Pin To Net: NetName=IOB4_3 Pin=U24-12
+Added Pin To Net: NetName=IOB4_2 Pin=U24-13
+Added Pin To Net: NetName=IOB4_1 Pin=U24-14
+Added Pin To Net: NetName=IOB5_3 Pin=U24-22
+Added Pin To Net: NetName=IOB5_2 Pin=U24-23

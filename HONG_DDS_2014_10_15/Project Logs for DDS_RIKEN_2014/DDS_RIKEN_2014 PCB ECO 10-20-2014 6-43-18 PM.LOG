@@ -1,0 +1,4 @@
+Added Component: Designator=U21(TSOP65P640-28AM)
+Added Component: Designator=U22(QFN50P400X400-24VAN)
+Added Member To Class: ClassName=DDS_RIKEN_main Member=Component U21 AD9744
+Added Member To Class: ClassName=DDS_RIKEN_main Member=Component U22 ADL5330

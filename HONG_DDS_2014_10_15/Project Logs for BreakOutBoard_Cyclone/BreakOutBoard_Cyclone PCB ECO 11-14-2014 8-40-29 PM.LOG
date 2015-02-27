@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=DGND Pin=P6-1
+Removed Member From Class: ClassName=BreakOutBoard_Cyclone Member=P6
+Added Pin To Net: NetName=TTL_OUT_0 Pin=P5-2
+Added Pin To Net: NetName=TTL_OUT_1 Pin=P5-3
+Added Pin To Net: NetName=TTL_OUT_2 Pin=P5-4

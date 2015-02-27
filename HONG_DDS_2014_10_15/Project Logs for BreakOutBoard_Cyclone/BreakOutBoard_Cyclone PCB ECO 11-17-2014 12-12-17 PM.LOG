@@ -1,0 +1,8 @@
+Added Component: Designator=P7(connector_40pos_2mm)
+Added Component: Designator=P8(connector_40pos_2mm)
+Added Component: Designator=P9(connector_40pos_2mm)
+Added Component: Designator=P10(connector_40pos_2mm)
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component P7 JP2A
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component P8 JP3A
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component P9 JP2B
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component P10 JP3B

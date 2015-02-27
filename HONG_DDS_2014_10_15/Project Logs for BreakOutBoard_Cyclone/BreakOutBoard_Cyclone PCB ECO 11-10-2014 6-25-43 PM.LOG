@@ -1,0 +1,81 @@
+Change Component Designator: OldDesignator=U2 NewDesignator=U3
+Added Component: Designator=C39(CAPC2012L)
+Added Component: Designator=C40(CAPC2012L)
+Added Component: Designator=C41(CAPC2012L)
+Added Component: Designator=C42(CAPC2012L)
+Added Component: Designator=C43(CAPC2012L)
+Added Component: Designator=C44(CAPC2012L)
+Added Component: Designator=C45(CAPC2012L)
+Added Component: Designator=C46(CAPC2012L)
+Added Component: Designator=U2(NSO16_N)
+Added Component: Designator=U4(NSO16_N)
+Added Component: Designator=U5(NSO16_N)
+Added Component: Designator=U6(NSO16_N)
+Added Component: Designator=U7(NSO16_N)
+Added Component: Designator=U8(NSO16_N)
+Added Component: Designator=U9(NSO16_N)
+Added Component: Designator=U10(NSO16_N)
+Added Pin To Net: NetName=3.3V_DIG Pin=C39-1
+Added Pin To Net: NetName=DGND Pin=C39-2
+Added Pin To Net: NetName=3.3V_DIG Pin=C40-1
+Added Pin To Net: NetName=DGND Pin=C40-2
+Added Pin To Net: NetName=3.3V_DIG Pin=C41-1
+Added Pin To Net: NetName=DGND Pin=C41-2
+Added Pin To Net: NetName=3.3V_DIG Pin=C42-1
+Added Pin To Net: NetName=DGND Pin=C42-2
+Added Pin To Net: NetName=3.3V_DIG Pin=C43-1
+Added Pin To Net: NetName=DGND Pin=C43-2
+Added Pin To Net: NetName=3.3V_DIG Pin=C44-1
+Added Pin To Net: NetName=DGND Pin=C44-2
+Added Pin To Net: NetName=3.3V_DIG Pin=C45-1
+Added Pin To Net: NetName=DGND Pin=C45-2
+Added Pin To Net: NetName=3.3V_DIG Pin=C46-1
+Added Pin To Net: NetName=DGND Pin=C46-2
+Added Pin To Net: NetName=3.3V_DIG Pin=U2-4
+Added Pin To Net: NetName=DGND Pin=U2-8
+Added Pin To Net: NetName=3.3V_DIG Pin=U2-12
+Added Pin To Net: NetName=3.3V_DIG Pin=U2-16
+Added Pin To Net: NetName=3.3V_DIG Pin=U4-4
+Added Pin To Net: NetName=DGND Pin=U4-8
+Added Pin To Net: NetName=DGND Pin=U4-12
+Added Pin To Net: NetName=3.3V_DIG Pin=U4-16
+Added Pin To Net: NetName=3.3V_DIG Pin=U5-4
+Added Pin To Net: NetName=DGND Pin=U5-8
+Added Pin To Net: NetName=DGND Pin=U5-12
+Added Pin To Net: NetName=3.3V_DIG Pin=U5-16
+Added Pin To Net: NetName=3.3V_DIG Pin=U6-4
+Added Pin To Net: NetName=DGND Pin=U6-8
+Added Pin To Net: NetName=DGND Pin=U6-12
+Added Pin To Net: NetName=3.3V_DIG Pin=U6-16
+Added Pin To Net: NetName=3.3V_DIG Pin=U7-4
+Added Pin To Net: NetName=DGND Pin=U7-8
+Added Pin To Net: NetName=DGND Pin=U7-12
+Added Pin To Net: NetName=3.3V_DIG Pin=U7-16
+Added Pin To Net: NetName=3.3V_DIG Pin=U8-4
+Added Pin To Net: NetName=DGND Pin=U8-8
+Added Pin To Net: NetName=DGND Pin=U8-12
+Added Pin To Net: NetName=3.3V_DIG Pin=U8-16
+Added Pin To Net: NetName=3.3V_DIG Pin=U9-4
+Added Pin To Net: NetName=DGND Pin=U9-8
+Added Pin To Net: NetName=DGND Pin=U9-12
+Added Pin To Net: NetName=3.3V_DIG Pin=U9-16
+Added Pin To Net: NetName=3.3V_DIG Pin=U10-4
+Added Pin To Net: NetName=DGND Pin=U10-8
+Added Pin To Net: NetName=DGND Pin=U10-12
+Added Pin To Net: NetName=3.3V_DIG Pin=U10-16
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C39 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C40 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C41 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C42 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C43 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C44 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C45 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component C46 Cap Semi
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component U3 MAX3030, Tx
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component U4 MAX3030, Tx
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component U5 MAX3030, Tx
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component U6 MAX3030, Tx
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component U7 MAX3030, Tx
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component U8 MAX3030, Tx
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component U9 MAX3030, Tx
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component U10 MAX3030, Tx

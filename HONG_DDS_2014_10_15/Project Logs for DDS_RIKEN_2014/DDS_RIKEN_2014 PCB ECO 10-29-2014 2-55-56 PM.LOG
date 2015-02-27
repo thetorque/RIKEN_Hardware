@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=1.8V_DIG Pin=C71-1
+Removed Pin From Net: NetName=DGND Pin=C71-2
+Added Pin To Net: NetName=1.8V_ANA Pin=C71-1
+Added Pin To Net: NetName=AGND Pin=C71-2

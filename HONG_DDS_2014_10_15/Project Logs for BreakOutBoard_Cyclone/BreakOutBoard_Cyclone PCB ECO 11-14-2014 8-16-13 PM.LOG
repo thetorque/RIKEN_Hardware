@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=AUX_IN_1 Pin=U11-1C16
+Removed Pin From Net: NetName=PMT_IN Pin=U11-1C20
+Added Pin To Net: NetName=PMT_IN Pin=U11-1C16
+Added Pin To Net: NetName=AUX_IN_1 Pin=U11-1C20

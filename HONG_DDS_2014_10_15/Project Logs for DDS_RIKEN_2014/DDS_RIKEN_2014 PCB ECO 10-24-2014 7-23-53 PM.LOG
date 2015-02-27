@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=IOB8_21 Pin=U9-3
+Removed Pin From Net: NetName=IOB1_4 Pin=U9-11
+Added Pin To Net: NetName=IOB1_4 Pin=U9-3
+Added Pin To Net: NetName=IOB8_21 Pin=U9-11

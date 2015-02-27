@@ -1,0 +1,42 @@
+Added Pin To Net: NetName=TTL_OUT_3 Pin=P5-5
+Added Pin To Net: NetName=TTL_OUT_4 Pin=P5-6
+Added Pin To Net: NetName=TTL_OUT_5 Pin=P5-7
+Added Pin To Net: NetName=TTL_OUT_6 Pin=P5-8
+Added Pin To Net: NetName=TTL_OUT_7 Pin=P5-9
+Added Pin To Net: NetName=TTL_OUT_8 Pin=P5-10
+Added Pin To Net: NetName=TTL_OUT_9 Pin=P5-11
+Added Pin To Net: NetName=TTL_OUT_10 Pin=P5-12
+Added Pin To Net: NetName=TTL_OUT_11 Pin=P5-13
+Added Pin To Net: NetName=TTL_OUT_12 Pin=P5-14
+Added Pin To Net: NetName=TTL_OUT_13 Pin=P5-15
+Added Pin To Net: NetName=TTL_OUT_14 Pin=P5-16
+Added Pin To Net: NetName=TTL_OUT_15 Pin=P5-17
+Added Pin To Net: NetName=TTL_OUT_16 Pin=P5-18
+Added Pin To Net: NetName=TTL_OUT_17 Pin=P5-19
+Added Pin To Net: NetName=TTL_OUT_18 Pin=P5-20
+Added Pin To Net: NetName=TTL_OUT_19 Pin=P5-21
+Added Pin To Net: NetName=TTL_OUT_20 Pin=P5-22
+Added Pin To Net: NetName=TTL_OUT_21 Pin=P5-23
+Added Pin To Net: NetName=TTL_OUT_22 Pin=P5-24
+Added Pin To Net: NetName=TTL_OUT_23 Pin=P5-25
+Added Pin To Net: NetName=TTL_OUT_24 Pin=P5-26
+Added Pin To Net: NetName=TTL_OUT_25 Pin=P5-27
+Added Pin To Net: NetName=TTL_OUT_26 Pin=P5-28
+Added Pin To Net: NetName=TTL_OUT_27 Pin=P5-29
+Added Pin To Net: NetName=TTL_OUT_28 Pin=P5-30
+Added Pin To Net: NetName=TTL_OUT_29 Pin=P5-31
+Added Pin To Net: NetName=TTL_OUT_30 Pin=P5-32
+Added Pin To Net: NetName=TTL_OUT_31 Pin=P5-33
+Added Pin To Net: NetName=DGND Pin=P5-40
+Added Pin To Net: NetName=TTL_OUT_32 Pin=P5-34
+Added Pin To Net: NetName=TTL_OUT_32 Pin=U11-2B35
+Added Net: Name=TTL_OUT_32
+Added Pin To Net: NetName=TTL_OUT_33 Pin=P5-35
+Added Pin To Net: NetName=TTL_OUT_33 Pin=U11-2B36
+Added Net: Name=TTL_OUT_33
+Added Pin To Net: NetName=TTL_OUT_34 Pin=P5-36
+Added Pin To Net: NetName=TTL_OUT_34 Pin=U11-2B37
+Added Net: Name=TTL_OUT_34
+Added Pin To Net: NetName=TTL_OUT_35 Pin=P5-37
+Added Pin To Net: NetName=TTL_OUT_35 Pin=U11-2B38
+Added Net: Name=TTL_OUT_35

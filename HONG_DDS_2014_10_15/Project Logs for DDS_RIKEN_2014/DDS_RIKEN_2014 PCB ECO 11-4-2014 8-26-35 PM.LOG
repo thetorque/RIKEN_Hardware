@@ -1,0 +1,8 @@
+Added Component: Designator=C89(CAPC2012L)
+Added Component: Designator=C90(CAPC2012L)
+Added Pin To Net: NetName=1.2V_DIG Pin=C89-1
+Added Pin To Net: NetName=DGND Pin=C89-2
+Added Pin To Net: NetName=1.2V_DIG Pin=C90-1
+Added Pin To Net: NetName=DGND Pin=C90-2
+Added Member To Class: ClassName=FPGA Member=Component C89 Cap Semi
+Added Member To Class: ClassName=FPGA Member=Component C90 Cap Semi

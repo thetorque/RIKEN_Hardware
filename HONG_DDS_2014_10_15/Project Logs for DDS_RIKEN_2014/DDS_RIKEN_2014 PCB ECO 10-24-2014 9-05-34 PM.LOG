@@ -1,0 +1,13 @@
+Added Pin To Net: NetName=DGND Pin=C79-1
+Added Pin To Net: NetName=DGND Pin=C80-1
+Added Pin To Net: NetName=DGND Pin=C81-2
+Added Pin To Net: NetName=DGND Pin=J1-4
+Added Pin To Net: NetName=DGND Pin=J1-5
+Added Pin To Net: NetName=DGND Pin=J1-6
+Added Pin To Net: NetName=DGND Pin=R10-1
+Added Pin To Net: NetName=DGND Pin=U24-7
+Added Pin To Net: NetName=DGND Pin=U24-18
+Added Pin To Net: NetName=DGND Pin=U24-21
+Added Pin To Net: NetName=DGND Pin=U24-25
+Added Pin To Net: NetName=DGND Pin=U24-26
+Change Net Name : Old Net Name=DGND New Net Name=GND

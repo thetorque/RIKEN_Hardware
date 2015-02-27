@@ -1,0 +1,8 @@
+Added Component: Designator=R19(RESC3216L)
+Added Pin To Net: NetName=AS_NCONFIG Pin=R2-1
+Added Pin To Net: NetName=AS_CONF_DONE Pin=R3-1
+Added Pin To Net: NetName=DGND Pin=R19-1
+Added Pin To Net: NetName=NCE Pin=R19-2
+Added Pin To Net: NetName=AS_NCONFIG Pin=U1-H5
+Added Pin To Net: NetName=AS_CONF_DONE Pin=U1-H14
+Added Member To Class: ClassName=FPGA Member=Component R19 

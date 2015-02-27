@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=BUS37_N Pin=U1-14
+Added Pin To Net: NetName=BUS37_P Pin=U1-15
+Added Pin To Net: NetName=BUS37 Pin=U1-13
+Added Net: Name=BUS37

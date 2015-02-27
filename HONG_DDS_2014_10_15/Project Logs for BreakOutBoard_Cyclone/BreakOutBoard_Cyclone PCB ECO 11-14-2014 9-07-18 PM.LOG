@@ -1,0 +1,49 @@
+Added Component: Designator=P6(HDR2X10)
+Added Pin To Net: NetName=DGND Pin=P6-1
+Added Pin To Net: NetName=DGND Pin=P6-20
+Added Pin To Net: NetName=AUX_IO_0 Pin=P6-2
+Added Pin To Net: NetName=AUX_IO_0 Pin=U11-2C3
+Added Net: Name=AUX_IO_0
+Added Pin To Net: NetName=AUX_IO_1 Pin=U11-2C4
+Added Net: Name=AUX_IO_1
+Added Pin To Net: NetName=AUX_IO_2 Pin=P6-4
+Added Pin To Net: NetName=AUX_IO_2 Pin=U11-2C5
+Added Net: Name=AUX_IO_2
+Added Pin To Net: NetName=AUX_IO_3 Pin=U11-2C6
+Added Net: Name=AUX_IO_3
+Added Pin To Net: NetName=AUX_IO_4 Pin=P6-6
+Added Pin To Net: NetName=AUX_IO_4 Pin=U11-2C7
+Added Net: Name=AUX_IO_4
+Added Pin To Net: NetName=AUX_IO_5 Pin=U11-2C8
+Added Net: Name=AUX_IO_5
+Added Pin To Net: NetName=AUX_IO_6 Pin=P6-8
+Added Pin To Net: NetName=AUX_IO_6 Pin=U11-2C9
+Added Net: Name=AUX_IO_6
+Added Pin To Net: NetName=AUX_IO_7 Pin=U11-2C10
+Added Net: Name=AUX_IO_7
+Added Pin To Net: NetName=AUX_IO_8 Pin=P6-10
+Added Pin To Net: NetName=AUX_IO_8 Pin=U11-2C11
+Added Net: Name=AUX_IO_8
+Added Pin To Net: NetName=AUX_IO_9 Pin=U11-2C12
+Added Net: Name=AUX_IO_9
+Added Pin To Net: NetName=AUX_IO_10 Pin=P6-12
+Added Pin To Net: NetName=AUX_IO_10 Pin=U11-2C13
+Added Net: Name=AUX_IO_10
+Added Pin To Net: NetName=AUX_IO_11 Pin=U11-2C14
+Added Net: Name=AUX_IO_11
+Added Pin To Net: NetName=AUX_IO_12 Pin=P6-14
+Added Pin To Net: NetName=AUX_IO_12 Pin=U11-2C15
+Added Net: Name=AUX_IO_12
+Added Pin To Net: NetName=AUX_IO_13 Pin=U11-2C16
+Added Net: Name=AUX_IO_13
+Added Pin To Net: NetName=AUX_IO_14 Pin=P6-16
+Added Pin To Net: NetName=AUX_IO_14 Pin=U11-2C17
+Added Net: Name=AUX_IO_14
+Added Pin To Net: NetName=AUX_IO_15 Pin=U11-2C18
+Added Net: Name=AUX_IO_15
+Added Pin To Net: NetName=AUX_IO_16 Pin=P6-18
+Added Pin To Net: NetName=AUX_IO_16 Pin=U11-2C19
+Added Net: Name=AUX_IO_16
+Added Pin To Net: NetName=AUX_IO_17 Pin=U11-2C20
+Added Net: Name=AUX_IO_17
+Added Member To Class: ClassName=BreakOutBoard_Cyclone Member=Component P6 AUX_I/O
