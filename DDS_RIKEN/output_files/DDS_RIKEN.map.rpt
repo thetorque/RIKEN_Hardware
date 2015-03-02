@@ -1,5 +1,5 @@
 Analysis & Synthesis report for DDS_RIKEN
-Fri Feb 27 19:43:53 2015
+Mon Mar 02 21:15:08 2015
 Quartus II 64-Bit Version 14.1.0 Build 186 12/03/2014 SJ Web Edition
 
 
@@ -45,16 +45,16 @@ agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Feb 27 19:43:53 2015      ;
+; Analysis & Synthesis Status        ; Successful - Mon Mar 02 21:15:07 2015      ;
 ; Quartus II 64-Bit Version          ; 14.1.0 Build 186 12/03/2014 SJ Web Edition ;
 ; Revision Name                      ; DDS_RIKEN                                  ;
 ; Top-level Entity Name              ; DDS_RIKEN                                  ;
 ; Family                             ; Cyclone IV E                               ;
-; Total logic elements               ; 27                                         ;
-;     Total combinational functions  ; 27                                         ;
-;     Dedicated logic registers      ; 14                                         ;
-; Total registers                    ; 14                                         ;
-; Total pins                         ; 10                                         ;
+; Total logic elements               ; 66                                         ;
+;     Total combinational functions  ; 66                                         ;
+;     Dedicated logic registers      ; 35                                         ;
+; Total registers                    ; 35                                         ;
+; Total pins                         ; 70                                         ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0                                          ;
 ; Embedded Multiplier 9-bit elements ; 0                                          ;
@@ -166,45 +166,45 @@ agreement for further details.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                           ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                    ; Library ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------+---------+
-; DDS_RIKEN.vhd                    ; yes             ; User VHDL File  ; C:/Users/Thaned/Desktop/DDS_RIKEN/DDS_RIKEN.vhd ;         ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                   ;
++----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                            ; Library ;
++----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------+---------+
+; DDS_RIKEN.vhd                    ; yes             ; User VHDL File  ; C:/Users/Thaned/Desktop/Hardware/RIKEN_Hardware/DDS_RIKEN/DDS_RIKEN.vhd ;         ;
++----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------+---------+
 
 
-+---------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                   ;
-+---------------------------------------------+-----------------+
-; Resource                                    ; Usage           ;
-+---------------------------------------------+-----------------+
-; Estimated Total logic elements              ; 27              ;
-;                                             ;                 ;
-; Total combinational functions               ; 27              ;
-; Logic element usage by number of LUT inputs ;                 ;
-;     -- 4 input functions                    ; 19              ;
-;     -- 3 input functions                    ; 3               ;
-;     -- <=2 input functions                  ; 5               ;
-;                                             ;                 ;
-; Logic elements by mode                      ;                 ;
-;     -- normal mode                          ; 27              ;
-;     -- arithmetic mode                      ; 0               ;
-;                                             ;                 ;
-; Total registers                             ; 14              ;
-;     -- Dedicated logic registers            ; 14              ;
-;     -- I/O registers                        ; 0               ;
-;                                             ;                 ;
-; I/O pins                                    ; 10              ;
-;                                             ;                 ;
-; Embedded Multiplier 9-bit elements          ; 0               ;
-;                                             ;                 ;
-; Maximum fan-out node                        ; count_serial[0] ;
-; Maximum fan-out                             ; 10              ;
-; Total fan-out                               ; 135             ;
-; Average fan-out                             ; 2.21            ;
-+---------------------------------------------+-----------------+
++-------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                 ;
++---------------------------------------------+---------------+
+; Resource                                    ; Usage         ;
++---------------------------------------------+---------------+
+; Estimated Total logic elements              ; 66            ;
+;                                             ;               ;
+; Total combinational functions               ; 66            ;
+; Logic element usage by number of LUT inputs ;               ;
+;     -- 4 input functions                    ; 37            ;
+;     -- 3 input functions                    ; 14            ;
+;     -- <=2 input functions                  ; 15            ;
+;                                             ;               ;
+; Logic elements by mode                      ;               ;
+;     -- normal mode                          ; 61            ;
+;     -- arithmetic mode                      ; 5             ;
+;                                             ;               ;
+; Total registers                             ; 35            ;
+;     -- Dedicated logic registers            ; 35            ;
+;     -- I/O registers                        ; 0             ;
+;                                             ;               ;
+; I/O pins                                    ; 70            ;
+;                                             ;               ;
+; Embedded Multiplier 9-bit elements          ; 0             ;
+;                                             ;               ;
+; Maximum fan-out node                        ; clk_in0~input ;
+; Maximum fan-out                             ; 27            ;
+; Total fan-out                               ; 380           ;
+; Average fan-out                             ; 1.58          ;
++---------------------------------------------+---------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -212,19 +212,37 @@ agreement for further details.
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; |DDS_RIKEN                 ; 27 (27)           ; 14 (14)      ; 0           ; 0            ; 0       ; 0         ; 10   ; 0            ; |DDS_RIKEN          ; work         ;
+; |DDS_RIKEN                 ; 66 (66)           ; 35 (35)      ; 0           ; 0            ; 0       ; 0         ; 70   ; 0            ; |DDS_RIKEN          ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+--------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                             ;
-+---------------------------------------+----------------------------------------+
-; Register name                         ; Reason for Removal                     ;
-+---------------------------------------+----------------------------------------+
-; LED_OE~reg0                           ; Stuck at GND due to stuck port data_in ;
-; Total Number of Removed Registers = 1 ;                                        ;
-+---------------------------------------+----------------------------------------+
++---------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                              ;
++----------------------------------------+----------------------------------------+
+; Register name                          ; Reason for Removal                     ;
++----------------------------------------+----------------------------------------+
+; par_data[1,2,5,8..15]                  ; Stuck at GND due to stuck port data_in ;
+; par_add[0]                             ; Stuck at VCC due to stuck port data_in ;
+; par_add[6,7]                           ; Stuck at GND due to stuck port data_in ;
+; par_data[7]                            ; Merged with par_data[0]                ;
+; dac_out[10]~reg0                       ; Merged with dac_out[0]~reg0            ;
+; dac_out[11]~reg0                       ; Merged with dac_out[0]~reg0            ;
+; dac_out[1]~reg0                        ; Merged with dac_out[0]~reg0            ;
+; dac_out[2]~reg0                        ; Merged with dac_out[0]~reg0            ;
+; dac_out[3]~reg0                        ; Merged with dac_out[0]~reg0            ;
+; dac_out[4]~reg0                        ; Merged with dac_out[0]~reg0            ;
+; dac_out[5]~reg0                        ; Merged with dac_out[0]~reg0            ;
+; dac_out[6]~reg0                        ; Merged with dac_out[0]~reg0            ;
+; dac_out[7]~reg0                        ; Merged with dac_out[0]~reg0            ;
+; dac_out[8]~reg0                        ; Merged with dac_out[0]~reg0            ;
+; dac_out[9]~reg0                        ; Merged with dac_out[0]~reg0            ;
+; dac_out[13]~reg0                       ; Merged with dac_out[12]~reg0           ;
+; dac_out[0]~reg0                        ; Stuck at GND due to stuck port data_in ;
+; dac_out[12]~reg0                       ; Stuck at VCC due to stuck port data_in ;
+; LED_OE~reg0                            ; Stuck at GND due to stuck port data_in ;
+; Total Number of Removed Registers = 30 ;                                        ;
++----------------------------------------+----------------------------------------+
 
 
 +------------------------------------------------------+
@@ -232,12 +250,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 14    ;
+; Total registers                              ; 35    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Clock Enable       ; 6     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -257,19 +275,22 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 10                          ;
-; cycloneiii_ff         ; 14                          ;
-;     plain             ; 14                          ;
-; cycloneiii_lcell_comb ; 28                          ;
-;     normal            ; 28                          ;
-;         0 data inputs ; 1                           ;
-;         1 data inputs ; 1                           ;
-;         2 data inputs ; 4                           ;
-;         3 data inputs ; 3                           ;
-;         4 data inputs ; 19                          ;
+; boundary_port         ; 70                          ;
+; cycloneiii_ff         ; 35                          ;
+;     ENA               ; 6                           ;
+;     plain             ; 29                          ;
+; cycloneiii_lcell_comb ; 68                          ;
+;     arith             ; 5                           ;
+;         2 data inputs ; 5                           ;
+;     normal            ; 63                          ;
+;         0 data inputs ; 2                           ;
+;         1 data inputs ; 3                           ;
+;         2 data inputs ; 7                           ;
+;         3 data inputs ; 14                          ;
+;         4 data inputs ; 37                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 3.00                        ;
-; Average LUT depth     ; 1.91                        ;
+; Average LUT depth     ; 2.05                        ;
 +-----------------------+-----------------------------+
 
 
@@ -288,7 +309,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 14.1.0 Build 186 12/03/2014 SJ Web Edition
-    Info: Processing started: Fri Feb 27 19:43:44 2015
+    Info: Processing started: Mon Mar 02 21:14:58 2015
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DDS_RIKEN -c DDS_RIKEN
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
 Info (12021): Found 2 design units, including 1 entities, in source file dds_riken.vhd
@@ -297,23 +318,69 @@ Info (12021): Found 2 design units, including 1 entities, in source file dds_rik
 Info (12127): Elaborating entity "DDS_RIKEN" for the top level hierarchy
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "LED_OE" is stuck at GND
+    Warning (13410): Pin "dds_port[0]" is stuck at VCC
+    Warning (13410): Pin "dds_port[1]" is stuck at GND
+    Warning (13410): Pin "dds_port[3]" is stuck at GND
+    Warning (13410): Pin "dds_port[4]" is stuck at GND
+    Warning (13410): Pin "dds_port[5]" is stuck at GND
+    Warning (13410): Pin "dds_port[6]" is stuck at GND
+    Warning (13410): Pin "dds_port[7]" is stuck at GND
+    Warning (13410): Pin "dds_port[8]" is stuck at VCC
+    Warning (13410): Pin "dds_port[14]" is stuck at GND
+    Warning (13410): Pin "dds_port[15]" is stuck at GND
+    Warning (13410): Pin "dds_port[17]" is stuck at GND
+    Warning (13410): Pin "dds_port[18]" is stuck at GND
+    Warning (13410): Pin "dds_port[21]" is stuck at GND
+    Warning (13410): Pin "dds_port[24]" is stuck at GND
+    Warning (13410): Pin "dds_port[25]" is stuck at GND
+    Warning (13410): Pin "dds_port[26]" is stuck at GND
+    Warning (13410): Pin "dds_port[27]" is stuck at GND
+    Warning (13410): Pin "dds_port[28]" is stuck at GND
+    Warning (13410): Pin "dds_port[29]" is stuck at GND
+    Warning (13410): Pin "dds_port[30]" is stuck at GND
+    Warning (13410): Pin "dds_port[31]" is stuck at GND
+    Warning (13410): Pin "dds_osk" is stuck at GND
+    Warning (13410): Pin "dds_drhold" is stuck at GND
+    Warning (13410): Pin "dds_drctl" is stuck at GND
+    Warning (13410): Pin "f_pin[0]" is stuck at GND
+    Warning (13410): Pin "f_pin[1]" is stuck at GND
+    Warning (13410): Pin "f_pin[2]" is stuck at GND
+    Warning (13410): Pin "f_pin[3]" is stuck at GND
+    Warning (13410): Pin "ps[0]" is stuck at GND
+    Warning (13410): Pin "ps[1]" is stuck at GND
+    Warning (13410): Pin "ps[2]" is stuck at GND
+    Warning (13410): Pin "dac_out[0]" is stuck at GND
+    Warning (13410): Pin "dac_out[1]" is stuck at GND
+    Warning (13410): Pin "dac_out[2]" is stuck at GND
+    Warning (13410): Pin "dac_out[3]" is stuck at GND
+    Warning (13410): Pin "dac_out[4]" is stuck at GND
+    Warning (13410): Pin "dac_out[5]" is stuck at GND
+    Warning (13410): Pin "dac_out[6]" is stuck at GND
+    Warning (13410): Pin "dac_out[7]" is stuck at GND
+    Warning (13410): Pin "dac_out[8]" is stuck at GND
+    Warning (13410): Pin "dac_out[9]" is stuck at GND
+    Warning (13410): Pin "dac_out[10]" is stuck at GND
+    Warning (13410): Pin "dac_out[11]" is stuck at GND
+    Warning (13410): Pin "dac_out[12]" is stuck at VCC
+    Warning (13410): Pin "dac_out[13]" is stuck at VCC
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 5 input pin(s) that do not drive logic
+Warning (21074): Design contains 6 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "clk_dds"
+    Warning (15610): No output dependent on input pin "dds_drover"
     Warning (15610): No output dependent on input pin "add_in[0]"
     Warning (15610): No output dependent on input pin "add_in[1]"
     Warning (15610): No output dependent on input pin "add_in[2]"
     Warning (15610): No output dependent on input pin "add_in[3]"
-Info (21057): Implemented 37 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 6 input pins
-    Info (21059): Implemented 4 output pins
-    Info (21061): Implemented 27 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 8 warnings
-    Info: Peak virtual memory: 667 megabytes
-    Info: Processing ended: Fri Feb 27 19:43:53 2015
-    Info: Elapsed time: 00:00:09
+Info (21057): Implemented 136 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 7 input pins
+    Info (21059): Implemented 63 output pins
+    Info (21061): Implemented 66 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 54 warnings
+    Info: Peak virtual memory: 668 megabytes
+    Info: Processing ended: Mon Mar 02 21:15:08 2015
+    Info: Elapsed time: 00:00:10
     Info: Total CPU time (on all processors): 00:00:20
 
 
