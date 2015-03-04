@@ -27,7 +27,8 @@ entity Pulser is
 
 		sys_clk   : in     STD_LOGIC;
 		
-		led       : out    STD_LOGIC_VECTOR(1 downto 0)
+		led       : out    STD_LOGIC_VECTOR(1 downto 0);
+		led_array : out    STD_LOGIC_VECTOR(7 downto 0)
 	);
 end Pulser;
 
@@ -74,6 +75,11 @@ down2      <= ep40wire(2);
 ep60trig   <= (x"0000000" & "00" & count1eq80 & count1eq00);
 ep61trig   <= (x"0000000" & "000" & count2eqFF);
 led        <= not count1(3 downto 2);
+-- add custor led
+--led_array  <= x"FF" WHEN count1(3 downto 3) = "1" ELSE x"00";
+led_array(7 downto 6) <= count1(3 downto 2);
+led_array(4 downto 0) <= ep00wire(7 downto 3);
+led_array(5 downto 5) <= "1";
 
 -- Counter 1
 -- + Counting using a divided sys_clk

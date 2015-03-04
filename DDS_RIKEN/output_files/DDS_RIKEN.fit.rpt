@@ -1,5 +1,5 @@
 Fitter report for DDS_RIKEN
-Mon Mar 02 21:15:14 2015
+Wed Mar 04 14:51:57 2015
 Quartus II 64-Bit Version 14.1.0 Build 186 12/03/2014 SJ Web Edition
 
 
@@ -69,17 +69,17 @@ agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Fitter Summary                                                                  ;
 +------------------------------------+--------------------------------------------+
-; Fitter Status                      ; Successful - Mon Mar 02 21:15:14 2015      ;
+; Fitter Status                      ; Successful - Wed Mar 04 14:51:57 2015      ;
 ; Quartus II 64-Bit Version          ; 14.1.0 Build 186 12/03/2014 SJ Web Edition ;
 ; Revision Name                      ; DDS_RIKEN                                  ;
 ; Top-level Entity Name              ; DDS_RIKEN                                  ;
 ; Family                             ; Cyclone IV E                               ;
 ; Device                             ; EP4CE22F17C8                               ;
 ; Timing Models                      ; Final                                      ;
-; Total logic elements               ; 67 / 22,320 ( < 1 % )                      ;
-;     Total combinational functions  ; 66 / 22,320 ( < 1 % )                      ;
-;     Dedicated logic registers      ; 35 / 22,320 ( < 1 % )                      ;
-; Total registers                    ; 35                                         ;
+; Total logic elements               ; 90 / 22,320 ( < 1 % )                      ;
+;     Total combinational functions  ; 89 / 22,320 ( < 1 % )                      ;
+;     Dedicated logic registers      ; 38 / 22,320 ( < 1 % )                      ;
+; Total registers                    ; 38                                         ;
 ; Total pins                         ; 70 / 154 ( 45 % )                          ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0 / 608,256 ( 0 % )                        ;
@@ -242,8 +242,8 @@ agreement for further details.
 ; Type                ; Total [A + B]      ; From Design Partitions [A] ; From Rapid Recompile [B] ;
 +---------------------+--------------------+----------------------------+--------------------------+
 ; Placement (by node) ;                    ;                            ;                          ;
-;     -- Requested    ; 0.00 % ( 0 / 252 ) ; 0.00 % ( 0 / 252 )         ; 0.00 % ( 0 / 252 )       ;
-;     -- Achieved     ; 0.00 % ( 0 / 252 ) ; 0.00 % ( 0 / 252 )         ; 0.00 % ( 0 / 252 )       ;
+;     -- Requested    ; 0.00 % ( 0 / 278 ) ; 0.00 % ( 0 / 278 )         ; 0.00 % ( 0 / 278 )       ;
+;     -- Achieved     ; 0.00 % ( 0 / 278 ) ; 0.00 % ( 0 / 278 )         ; 0.00 % ( 0 / 278 )       ;
 ;                     ;                    ;                            ;                          ;
 ; Routing (by net)    ;                    ;                            ;                          ;
 ;     -- Requested    ; 0.00 % ( 0 / 0 )   ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
@@ -266,7 +266,7 @@ agreement for further details.
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 ; Partition Name                 ; Preservation Achieved ; Preservation Level Used ; Netlist Type Used ; Preservation Method ; Notes ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
-; Top                            ; 0.00 % ( 0 / 244 )    ; N/A                     ; Source File       ; N/A                 ;       ;
+; Top                            ; 0.00 % ( 0 / 270 )    ; N/A                     ; Source File       ; N/A                 ;       ;
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 8 )      ; N/A                     ; Source File       ; N/A                 ;       ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 
@@ -282,26 +282,26 @@ The pin-out file can be found in C:/Users/Thaned/Desktop/Hardware/RIKEN_Hardware
 +---------------------------------------------+-----------------------+
 ; Resource                                    ; Usage                 ;
 +---------------------------------------------+-----------------------+
-; Total logic elements                        ; 67 / 22,320 ( < 1 % ) ;
-;     -- Combinational with no register       ; 32                    ;
+; Total logic elements                        ; 90 / 22,320 ( < 1 % ) ;
+;     -- Combinational with no register       ; 52                    ;
 ;     -- Register only                        ; 1                     ;
-;     -- Combinational with a register        ; 34                    ;
+;     -- Combinational with a register        ; 37                    ;
 ;                                             ;                       ;
 ; Logic element usage by number of LUT inputs ;                       ;
-;     -- 4 input functions                    ; 37                    ;
-;     -- 3 input functions                    ; 14                    ;
-;     -- <=2 input functions                  ; 15                    ;
+;     -- 4 input functions                    ; 52                    ;
+;     -- 3 input functions                    ; 17                    ;
+;     -- <=2 input functions                  ; 20                    ;
 ;     -- Register only                        ; 1                     ;
 ;                                             ;                       ;
 ; Logic elements by mode                      ;                       ;
-;     -- normal mode                          ; 61                    ;
+;     -- normal mode                          ; 84                    ;
 ;     -- arithmetic mode                      ; 5                     ;
 ;                                             ;                       ;
-; Total registers*                            ; 35 / 23,018 ( < 1 % ) ;
-;     -- Dedicated logic registers            ; 35 / 22,320 ( < 1 % ) ;
+; Total registers*                            ; 38 / 23,018 ( < 1 % ) ;
+;     -- Dedicated logic registers            ; 38 / 22,320 ( < 1 % ) ;
 ;     -- I/O registers                        ; 0 / 698 ( 0 % )       ;
 ;                                             ;                       ;
-; Total LABs:  partially or completely used   ; 6 / 1,395 ( < 1 % )   ;
+; Total LABs:  partially or completely used   ; 7 / 1,395 ( < 1 % )   ;
 ; Virtual pins                                ; 0                     ;
 ; I/O pins                                    ; 70 / 154 ( 45 % )     ;
 ;     -- Clock pins                           ; 2 / 7 ( 29 % )        ;
@@ -320,11 +320,11 @@ The pin-out file can be found in C:/Users/Thaned/Desktop/Hardware/RIKEN_Hardware
 ; Oscillator blocks                           ; 0 / 1 ( 0 % )         ;
 ; Impedance control blocks                    ; 0 / 4 ( 0 % )         ;
 ; Average interconnect usage (total/H/V)      ; 0.1% / 0.1% / 0.0%    ;
-; Peak interconnect usage (total/H/V)         ; 0.4% / 0.4% / 0.2%    ;
-; Maximum fan-out                             ; 27                    ;
-; Highest non-global fan-out                  ; 11                    ;
-; Total fan-out                               ; 387                   ;
-; Average fan-out                             ; 1.54                  ;
+; Peak interconnect usage (total/H/V)         ; 0.4% / 0.5% / 0.2%    ;
+; Maximum fan-out                             ; 30                    ;
+; Highest non-global fan-out                  ; 21                    ;
+; Total fan-out                               ; 480                   ;
+; Average fan-out                             ; 1.73                  ;
 +---------------------------------------------+-----------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
@@ -337,26 +337,26 @@ The pin-out file can be found in C:/Users/Thaned/Desktop/Hardware/RIKEN_Hardware
 +---------------------------------------------+----------------------+--------------------------------+
 ; Difficulty Clustering Region                ; Low                  ; Low                            ;
 ;                                             ;                      ;                                ;
-; Total logic elements                        ; 67 / 22320 ( < 1 % ) ; 0 / 22320 ( 0 % )              ;
-;     -- Combinational with no register       ; 32                   ; 0                              ;
+; Total logic elements                        ; 90 / 22320 ( < 1 % ) ; 0 / 22320 ( 0 % )              ;
+;     -- Combinational with no register       ; 52                   ; 0                              ;
 ;     -- Register only                        ; 1                    ; 0                              ;
-;     -- Combinational with a register        ; 34                   ; 0                              ;
+;     -- Combinational with a register        ; 37                   ; 0                              ;
 ;                                             ;                      ;                                ;
 ; Logic element usage by number of LUT inputs ;                      ;                                ;
-;     -- 4 input functions                    ; 37                   ; 0                              ;
-;     -- 3 input functions                    ; 14                   ; 0                              ;
-;     -- <=2 input functions                  ; 15                   ; 0                              ;
+;     -- 4 input functions                    ; 52                   ; 0                              ;
+;     -- 3 input functions                    ; 17                   ; 0                              ;
+;     -- <=2 input functions                  ; 20                   ; 0                              ;
 ;     -- Register only                        ; 1                    ; 0                              ;
 ;                                             ;                      ;                                ;
 ; Logic elements by mode                      ;                      ;                                ;
-;     -- normal mode                          ; 61                   ; 0                              ;
+;     -- normal mode                          ; 84                   ; 0                              ;
 ;     -- arithmetic mode                      ; 5                    ; 0                              ;
 ;                                             ;                      ;                                ;
-; Total registers                             ; 35                   ; 0                              ;
-;     -- Dedicated logic registers            ; 35 / 22320 ( < 1 % ) ; 0 / 22320 ( 0 % )              ;
+; Total registers                             ; 38                   ; 0                              ;
+;     -- Dedicated logic registers            ; 38 / 22320 ( < 1 % ) ; 0 / 22320 ( 0 % )              ;
 ;     -- I/O registers                        ; 0                    ; 0                              ;
 ;                                             ;                      ;                                ;
-; Total LABs:  partially or completely used   ; 6 / 1395 ( < 1 % )   ; 0 / 1395 ( 0 % )               ;
+; Total LABs:  partially or completely used   ; 7 / 1395 ( < 1 % )   ; 0 / 1395 ( 0 % )               ;
 ;                                             ;                      ;                                ;
 ; Virtual pins                                ; 0                    ; 0                              ;
 ; I/O pins                                    ; 70                   ; 0                              ;
@@ -372,8 +372,8 @@ The pin-out file can be found in C:/Users/Thaned/Desktop/Hardware/RIKEN_Hardware
 ;     -- Registered Output Connections        ; 0                    ; 0                              ;
 ;                                             ;                      ;                                ;
 ; Internal Connections                        ;                      ;                                ;
-;     -- Total Connections                    ; 383                  ; 4                              ;
-;     -- Registered Connections               ; 171                  ; 0                              ;
+;     -- Total Connections                    ; 476                  ; 4                              ;
+;     -- Registered Connections               ; 218                  ; 0                              ;
 ;                                             ;                      ;                                ;
 ; External Connections                        ;                      ;                                ;
 ;     -- Top                                  ; 0                    ; 0                              ;
@@ -410,7 +410,7 @@ The pin-out file can be found in C:/Users/Thaned/Desktop/Hardware/RIKEN_Hardware
 ; add_in[2]  ; N14   ; 5        ; 53           ; 6            ; 21           ; 0                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ;
 ; add_in[3]  ; L13   ; 5        ; 53           ; 10           ; 14           ; 0                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ;
 ; clk_dds    ; A9    ; 7        ; 25           ; 34           ; 0            ; 0                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ;
-; clk_in0    ; T8    ; 3        ; 27           ; 0            ; 14           ; 27                    ; 0                  ; yes    ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ;
+; clk_in0    ; T8    ; 3        ; 27           ; 0            ; 14           ; 30                    ; 0                  ; yes    ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ;
 ; dds_drover ; C2    ; 1        ; 0            ; 27           ; 0            ; 0                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ;
 +------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+
 
@@ -820,7 +820,7 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+--------------+
-; |DDS_RIKEN                 ; 67 (67)     ; 35 (35)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 70   ; 0            ; 32 (32)      ; 1 (1)             ; 34 (34)          ; |DDS_RIKEN          ; work         ;
+; |DDS_RIKEN                 ; 90 (90)     ; 38 (38)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 70   ; 0            ; 52 (52)      ; 1 (1)             ; 37 (37)          ; |DDS_RIKEN          ; work         ;
 +----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -923,20 +923,20 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 ; Name       ; Location           ; Fan-Out ; Usage        ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
-; Equal32~1  ; LCCOMB_X43_Y31_N26 ; 6       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; clk_in0    ; PIN_T8             ; 27      ; Clock        ; yes    ; Global Clock         ; GCLK19           ; --                        ;
-; clk_system ; FF_X27_Y33_N25     ; 8       ; Clock        ; yes    ; Global Clock         ; GCLK13           ; --                        ;
+; Equal40~1  ; LCCOMB_X43_Y32_N22 ; 6       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; clk_in0    ; PIN_T8             ; 30      ; Clock        ; yes    ; Global Clock         ; GCLK19           ; --                        ;
+; clk_system ; FF_X28_Y1_N21      ; 8       ; Clock        ; yes    ; Global Clock         ; GCLK17           ; --                        ;
 +------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------+
-; Global & Other Fast Signals                                                                                                                        ;
-+------------+----------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
-; Name       ; Location       ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
-+------------+----------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
-; clk_in0    ; PIN_T8         ; 27      ; 9                                    ; Global Clock         ; GCLK19           ; --                        ;
-; clk_system ; FF_X27_Y33_N25 ; 8       ; 0                                    ; Global Clock         ; GCLK13           ; --                        ;
-+------------+----------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Global & Other Fast Signals                                                                                                                       ;
++------------+---------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
+; Name       ; Location      ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
++------------+---------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
+; clk_in0    ; PIN_T8        ; 30      ; 12                                   ; Global Clock         ; GCLK19           ; --                        ;
+; clk_system ; FF_X28_Y1_N21 ; 8       ; 0                                    ; Global Clock         ; GCLK17           ; --                        ;
++------------+---------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 
 
 +--------------------------------------+
@@ -944,45 +944,61 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------+---------+
 ; Name                       ; Fan-Out ;
 +----------------------------+---------+
-; main_count[3]              ; 11      ;
-; main_count[2]              ; 11      ;
+; main_count[2]              ; 21      ;
+; main_count[3]              ; 19      ;
+; main_count[5]              ; 17      ;
+; main_count[4]              ; 16      ;
+; main_count[0]              ; 12      ;
+; WideOr16~6                 ; 10      ;
+; count[0]                   ; 10      ;
 ; count_serial[0]            ; 10      ;
-; main_count[4]              ; 10      ;
-; count[0]                   ; 9       ;
-; WideOr13~0                 ; 9       ;
-; main_count[0]              ; 9       ;
+; main_count[1]              ; 10      ;
 ; count_serial[1]            ; 8       ;
-; main_count[1]              ; 8       ;
-; main_count[5]              ; 8       ;
 ; count[1]                   ; 7       ;
 ; count_serial[2]            ; 7       ;
 ; count_serial[3]            ; 7       ;
-; Equal32~1                  ; 6       ;
+; par_data[11]               ; 7       ;
+; Equal40~1                  ; 6       ;
 ; count[2]                   ; 6       ;
-; Equal4~0                   ; 6       ;
+; Equal20~0                  ; 6       ;
 ; count_serial[4]            ; 6       ;
 ; count[3]                   ; 5       ;
-; Equal32~0                  ; 5       ;
-; Add1~0                     ; 4       ;
-; count[4]                   ; 4       ;
-; dds_io_update~reg0         ; 4       ;
+; Equal4~3                   ; 5       ;
+; WideOr16~2                 ; 4       ;
+; Equal4~2                   ; 4       ;
 ; count[4]~0                 ; 3       ;
+; Add1~0                     ; 3       ;
+; count[4]                   ; 3       ;
+; \process_1:main_count[1]   ; 3       ;
 ; \process_1:main_count[0]   ; 3       ;
-; Equal4~1                   ; 3       ;
+; Selector18~0               ; 3       ;
+; Equal8~1                   ; 3       ;
+; WideOr16~4                 ; 3       ;
+; WideOr16~3                 ; 3       ;
 ; dds_master_reset~reg0      ; 3       ;
-; par_data[0]                ; 3       ;
 ; par_wr[0]                  ; 3       ;
 ; LED_LE~reg0                ; 3       ;
-; Equal34~0                  ; 2       ;
+; Equal32~4                  ; 2       ;
+; Add1~1                     ; 2       ;
+; Equal43~0                  ; 2       ;
 ; Add2~2                     ; 2       ;
-; \process_1:main_count[1]   ; 2       ;
-; Equal4~2                   ; 2       ;
-; Equal28~0                  ; 2       ;
+; Equal40~0                  ; 2       ;
+; WideOr2~0                  ; 2       ;
+; Equal16~0                  ; 2       ;
+; Selector21~0               ; 2       ;
+; Selector12~0               ; 2       ;
+; Selector10~0               ; 2       ;
 ; Equal8~0                   ; 2       ;
+; WideOr16~5                 ; 2       ;
+; Equal24~0                  ; 2       ;
 ; dac_wr_pin~reg0            ; 2       ;
-; par_data[6]                ; 2       ;
+; dds_io_update~reg0         ; 2       ;
+; par_data[10]               ; 2       ;
+; par_data[8]                ; 2       ;
+; par_data[7]                ; 2       ;
 ; par_data[4]                ; 2       ;
 ; par_data[3]                ; 2       ;
+; par_data[0]                ; 2       ;
 ; par_add[5]                 ; 2       ;
 ; par_add[4]                 ; 2       ;
 ; par_add[3]                 ; 2       ;
@@ -990,18 +1006,22 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; par_add[1]                 ; 2       ;
 ; LED_SDI[0]~reg0            ; 2       ;
 ; LED_CLK~reg0               ; 2       ;
-; \process_1:main_count[0]~0 ; 1       ;
 ; count_serial[0]~2          ; 1       ;
+; Selector8~12               ; 1       ;
+; Selector8~11               ; 1       ;
+; Selector8~10               ; 1       ;
+; Selector8~4                ; 1       ;
+; Equal4~4                   ; 1       ;
 ; LED_LE~3                   ; 1       ;
-; count~4                    ; 1       ;
 ; count~3                    ; 1       ;
-; Add1~3                     ; 1       ;
 ; count~2                    ; 1       ;
+; Add1~4                     ; 1       ;
 ; count~1                    ; 1       ;
+; Add1~3                     ; 1       ;
 ; Add1~2                     ; 1       ;
 ; \process_1:main_count[1]~0 ; 1       ;
+; Mux16~0                    ; 1       ;
 ; clk_system~2               ; 1       ;
-; Add1~1                     ; 1       ;
 ; clk_system~1               ; 1       ;
 ; clk_system~0               ; 1       ;
 ; count_serial~1             ; 1       ;
@@ -1013,32 +1033,38 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Selector0~2                ; 1       ;
 ; Selector0~1                ; 1       ;
 ; Selector0~0                ; 1       ;
+; Selector1~3                ; 1       ;
+; Selector1~2                ; 1       ;
 ; Selector1~1                ; 1       ;
 ; Selector1~0                ; 1       ;
+; Selector15~1               ; 1       ;
 ; Selector15~0               ; 1       ;
-; Equal20~0                  ; 1       ;
-; Selector16~0               ; 1       ;
 ; Selector17~0               ; 1       ;
-; Selector18~0               ; 1       ;
+; Selector18~1               ; 1       ;
+; Selector21~1               ; 1       ;
+; Equal36~0                  ; 1       ;
+; Selector22~0               ; 1       ;
+; Selector14~0               ; 1       ;
+; Selector25~0               ; 1       ;
+; Equal20~1                  ; 1       ;
 ; Selector9~0                ; 1       ;
+; Selector10~3               ; 1       ;
 ; Selector10~2               ; 1       ;
 ; Selector10~1               ; 1       ;
+; Selector11~1               ; 1       ;
 ; Selector11~0               ; 1       ;
-; Selector10~0               ; 1       ;
+; Selector12~2               ; 1       ;
 ; Selector12~1               ; 1       ;
-; Selector12~0               ; 1       ;
 ; Selector13~1               ; 1       ;
 ; Selector13~0               ; 1       ;
-; Selector8~2                ; 1       ;
-; Selector8~1                ; 1       ;
-; Selector8~0                ; 1       ;
+; Selector8~9                ; 1       ;
 ; LED_LE~2                   ; 1       ;
 ; LED_SDI[0]~0               ; 1       ;
 ; clk_system                 ; 1       ;
-; Mux18~3                    ; 1       ;
-; Mux18~2                    ; 1       ;
-; Mux18~1                    ; 1       ;
-; Mux18~0                    ; 1       ;
+; Mux33~3                    ; 1       ;
+; Mux33~2                    ; 1       ;
+; Mux33~1                    ; 1       ;
+; Mux33~0                    ; 1       ;
 ; main_count[5]~16           ; 1       ;
 ; main_count[4]~15           ; 1       ;
 ; main_count[4]~14           ; 1       ;
@@ -1058,26 +1084,26 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------+
 ; Routing Resource Type ; Usage                 ;
 +-----------------------+-----------------------+
-; Block interconnects   ; 58 / 71,559 ( < 1 % ) ;
-; C16 interconnects     ; 1 / 2,597 ( < 1 % )   ;
-; C4 interconnects      ; 23 / 46,848 ( < 1 % ) ;
-; Direct links          ; 24 / 71,559 ( < 1 % ) ;
+; Block interconnects   ; 85 / 71,559 ( < 1 % ) ;
+; C16 interconnects     ; 2 / 2,597 ( < 1 % )   ;
+; C4 interconnects      ; 29 / 46,848 ( < 1 % ) ;
+; Direct links          ; 30 / 71,559 ( < 1 % ) ;
 ; Global clocks         ; 2 / 20 ( 10 % )       ;
-; Local interconnects   ; 50 / 24,624 ( < 1 % ) ;
+; Local interconnects   ; 64 / 24,624 ( < 1 % ) ;
 ; R24 interconnects     ; 5 / 2,496 ( < 1 % )   ;
-; R4 interconnects      ; 37 / 62,424 ( < 1 % ) ;
+; R4 interconnects      ; 59 / 62,424 ( < 1 % ) ;
 +-----------------------+-----------------------+
 
 
 +---------------------------------------------------------------------------+
 ; LAB Logic Elements                                                        ;
 +---------------------------------------------+-----------------------------+
-; Number of Logic Elements  (Average = 11.17) ; Number of LABs  (Total = 6) ;
+; Number of Logic Elements  (Average = 12.86) ; Number of LABs  (Total = 7) ;
 +---------------------------------------------+-----------------------------+
 ; 1                                           ; 0                           ;
 ; 2                                           ; 0                           ;
 ; 3                                           ; 1                           ;
-; 4                                           ; 1                           ;
+; 4                                           ; 0                           ;
 ; 5                                           ; 0                           ;
 ; 6                                           ; 0                           ;
 ; 7                                           ; 0                           ;
@@ -1086,8 +1112,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 10                                          ; 0                           ;
 ; 11                                          ; 0                           ;
 ; 12                                          ; 0                           ;
-; 13                                          ; 1                           ;
-; 14                                          ; 0                           ;
+; 13                                          ; 2                           ;
+; 14                                          ; 1                           ;
 ; 15                                          ; 1                           ;
 ; 16                                          ; 2                           ;
 +---------------------------------------------+-----------------------------+
@@ -1096,16 +1122,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------------------------------+
 ; LAB-wide Signals                                                 ;
 +------------------------------------+-----------------------------+
-; LAB-wide Signals  (Average = 1.00) ; Number of LABs  (Total = 6) ;
+; LAB-wide Signals  (Average = 1.00) ; Number of LABs  (Total = 7) ;
 +------------------------------------+-----------------------------+
-; 1 Clock                            ; 6                           ;
+; 1 Clock                            ; 7                           ;
 +------------------------------------+-----------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                        ;
 +----------------------------------------------+-----------------------------+
-; Number of Signals Sourced  (Average = 17.00) ; Number of LABs  (Total = 6) ;
+; Number of Signals Sourced  (Average = 18.29) ; Number of LABs  (Total = 7) ;
 +----------------------------------------------+-----------------------------+
 ; 0                                            ; 0                           ;
 ; 1                                            ; 0                           ;
@@ -1113,7 +1139,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 3                                            ; 0                           ;
 ; 4                                            ; 0                           ;
 ; 5                                            ; 0                           ;
-; 6                                            ; 2                           ;
+; 6                                            ; 1                           ;
 ; 7                                            ; 0                           ;
 ; 8                                            ; 0                           ;
 ; 9                                            ; 0                           ;
@@ -1123,34 +1149,35 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 13                                           ; 0                           ;
 ; 14                                           ; 0                           ;
 ; 15                                           ; 0                           ;
-; 16                                           ; 0                           ;
+; 16                                           ; 2                           ;
 ; 17                                           ; 0                           ;
 ; 18                                           ; 0                           ;
 ; 19                                           ; 1                           ;
 ; 20                                           ; 0                           ;
 ; 21                                           ; 0                           ;
 ; 22                                           ; 0                           ;
-; 23                                           ; 1                           ;
-; 24                                           ; 2                           ;
+; 23                                           ; 2                           ;
+; 24                                           ; 0                           ;
+; 25                                           ; 1                           ;
 +----------------------------------------------+-----------------------------+
 
 
 +-------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                       ;
 +-------------------------------------------------+-----------------------------+
-; Number of Signals Sourced Out  (Average = 4.50) ; Number of LABs  (Total = 6) ;
+; Number of Signals Sourced Out  (Average = 5.29) ; Number of LABs  (Total = 7) ;
 +-------------------------------------------------+-----------------------------+
 ; 0                                               ; 0                           ;
 ; 1                                               ; 2                           ;
-; 2                                               ; 1                           ;
+; 2                                               ; 0                           ;
 ; 3                                               ; 1                           ;
-; 4                                               ; 0                           ;
+; 4                                               ; 1                           ;
 ; 5                                               ; 0                           ;
 ; 6                                               ; 0                           ;
-; 7                                               ; 0                           ;
+; 7                                               ; 1                           ;
 ; 8                                               ; 0                           ;
-; 9                                               ; 1                           ;
-; 10                                              ; 0                           ;
+; 9                                               ; 0                           ;
+; 10                                              ; 1                           ;
 ; 11                                              ; 1                           ;
 +-------------------------------------------------+-----------------------------+
 
@@ -1158,7 +1185,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                       ;
 +---------------------------------------------+-----------------------------+
-; Number of Distinct Inputs  (Average = 3.67) ; Number of LABs  (Total = 6) ;
+; Number of Distinct Inputs  (Average = 5.29) ; Number of LABs  (Total = 7) ;
 +---------------------------------------------+-----------------------------+
 ; 0                                           ; 0                           ;
 ; 1                                           ; 4                           ;
@@ -1169,7 +1196,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 6                                           ; 0                           ;
 ; 7                                           ; 0                           ;
 ; 8                                           ; 0                           ;
-; 9                                           ; 2                           ;
+; 9                                           ; 1                           ;
+; 10                                          ; 0                           ;
+; 11                                          ; 0                           ;
+; 12                                          ; 2                           ;
 +---------------------------------------------+-----------------------------+
 
 
@@ -1358,12 +1388,12 @@ This will disable optimization of problematic paths and expose them for further 
 +-----------------+----------------------+-------------------+
 ; Source Register ; Destination Register ; Delay Added in ns ;
 +-----------------+----------------------+-------------------+
-; clk_system      ; clk_system           ; 2.867             ;
-; count[4]        ; clk_system           ; 0.244             ;
-; count[2]        ; clk_system           ; 0.244             ;
-; count[1]        ; clk_system           ; 0.244             ;
-; count[3]        ; clk_system           ; 0.244             ;
-; count[0]        ; clk_system           ; 0.244             ;
+; clk_system      ; clk_system           ; 2.855             ;
+; count[4]        ; clk_system           ; 0.243             ;
+; count[2]        ; clk_system           ; 0.243             ;
+; count[1]        ; clk_system           ; 0.243             ;
+; count[3]        ; clk_system           ; 0.243             ;
+; count[0]        ; clk_system           ; 0.243             ;
 +-----------------+----------------------+-------------------+
 Note: This table only shows the top 6 path(s) that have the largest delay added for hold.
 
@@ -1411,10 +1441,10 @@ Info (170192): Fitter placement operations ending: elapsed time is 00:00:00
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X43_Y23 to location X53_Y34
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.14 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.15 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -1430,8 +1460,8 @@ Warning (169177): 7 pins must meet Altera requirements for 3.3-, 3.0-, and 2.5-V
     Info (169178): Pin clk_in0 uses I/O standard 3.3-V LVTTL at T8
 Info (144001): Generated suppressed messages file C:/Users/Thaned/Desktop/Hardware/RIKEN_Hardware/DDS_RIKEN/output_files/DDS_RIKEN.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 1378 megabytes
-    Info: Processing ended: Mon Mar 02 21:15:15 2015
+    Info: Peak virtual memory: 1382 megabytes
+    Info: Processing ended: Wed Mar 04 14:51:58 2015
     Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:07
 

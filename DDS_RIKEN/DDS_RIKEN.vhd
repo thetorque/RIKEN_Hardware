@@ -79,7 +79,7 @@ begin
 	dds_port(2 downto 2) <= par_wr;
 	dds_port(7 downto 3) <= "00000";
 	
-	main_amplitude <= "11000000000000";
+	main_amplitude <= "11110000000000";
 	
 	par_16_bit <= "1";
 	--dds_master_reset <= '0';
@@ -88,7 +88,7 @@ begin
 	
 	---- write instruction to DDS ---
 	PROCESS (clk_in0)
-		variable main_count: integer range 0 to 35:=0;
+		variable main_count: integer range 0 to 46:=0;
 	BEGIN
 		IF (clk_in0'event and clk_in0='0') then
 			CASE main_count IS
@@ -105,99 +105,116 @@ begin
 				WHEN 3 => par_wr <="1";
 							 main_count := main_count+1;
 				WHEN 4 => par_add <= "00101111";
-							 par_data <= "0000000000001000";
+							 par_data <= "0000000000010000";
 							 main_count := main_count+1;
 				WHEN 5 => par_wr <="0";
 							 main_count := main_count+1;
 				WHEN 6 => par_wr <="1";
 							 main_count := main_count+1;
-				
---				WHEN 7 => par_wr <="1";
---							 main_count := main_count+1;
---				WHEN 8 => par_add <= "00000111";
---							 par_data <= "0000000010000001";--- CRF2 -- enable profile (23), enable modulus mode (16)
---							 main_count := main_count+1;
---				WHEN 9 => par_wr <="0";
---							 main_count := main_count+1;
---				WHEN 10 => par_wr <="1";
---							 main_count := main_count+1;
-
-
+							 
+				----- amlitude scaling			 
+							 
 				WHEN 7 => par_wr <="1";
 							 main_count := main_count+1;
-				WHEN 8 => par_add <= "00000111";
-							 par_data <= "0000000010001001";--- CRF2 -- enable profile (23), enable modulus mode (16)
-							 --par_data <= "0000000010000000";--- CRF2 -- enable profile (23), enable modulus mode (16)
+				WHEN 8 => par_add <= "00110011";
+							 --par_data <= "0000111111111111";
+							 par_data <= x"0FFF";
 							 main_count := main_count+1;
 				WHEN 9 => par_wr <="0";
 							 main_count := main_count+1;
 				WHEN 10 => par_wr <="1";
 							 main_count := main_count+1;
-							 
-				-------- program A and B for modulus mode testing
+		
 
-				---- A --> 1
+
 				WHEN 11 => par_wr <="1";
 							 main_count := main_count+1;
-				WHEN 12 => par_add <= "00011001";---0x19
-							 par_data <= "0000000000000000";--- 1
+				WHEN 12 => par_add <= "00000111";
+							 par_data <= "0000000010001001";--- CRF2 -- enable profile (23), enable modulus mode (16)
+							 --par_data <= "0000000010000000";--- CRF2 -- enable profile (23), enable modulus mode (16)
 							 main_count := main_count+1;
 				WHEN 13 => par_wr <="0";
 							 main_count := main_count+1;
 				WHEN 14 => par_wr <="1";
 							 main_count := main_count+1;
 							 
+				----- enable amplitude tuning ----
+				
 				WHEN 15 => par_wr <="1";
 							 main_count := main_count+1;
-				WHEN 16 => par_add <= "00011011";---0x1B
-							 par_data <= "0000000000000000";--- 
+				WHEN 16 => par_add <= "00000001";
+							 par_data <= "0000000100001000";--- CRF1 -- enable OSK (8), 0x08 default value
 							 main_count := main_count+1;
 				WHEN 17 => par_wr <="0";
 							 main_count := main_count+1;
 				WHEN 18 => par_wr <="1";
 							 main_count := main_count+1;
 							 
-				---- B -> 16
-				
+							 
+				-------- program A and B for modulus mode testing
+
+				---- A --> 1
 				WHEN 19 => par_wr <="1";
 							 main_count := main_count+1;
-				WHEN 20 => par_add <= "00010101";
-							 par_data <= "0000000001000000";--- 16
+				WHEN 20 => par_add <= "00011001";---0x19
+							 par_data <= "0000000000000001";--- 1
 							 main_count := main_count+1;
 				WHEN 21 => par_wr <="0";
 							 main_count := main_count+1;
 				WHEN 22 => par_wr <="1";
-							 main_count := main_count+1;		
-							
+							 main_count := main_count+1;
+							 
 				WHEN 23 => par_wr <="1";
 							 main_count := main_count+1;
-				WHEN 24 => par_add <= "00010111";
-							 par_data <= "0000000000000000";--- 0
+				WHEN 24 => par_add <= "00011011";---0x1B
+							 par_data <= "0000000000000000";--- 
 							 main_count := main_count+1;
 				WHEN 25 => par_wr <="0";
 							 main_count := main_count+1;
 				WHEN 26 => par_wr <="1";
-							 main_count := main_count+1;		
-							
-				--- FTW 
+							 main_count := main_count+1;
+							 
+				---- B -> 16
+				
 				WHEN 27 => par_wr <="1";
 							 main_count := main_count+1;
-				WHEN 28 => par_add <= "00010011";
-							 par_data <= "0000000000010000";
+				WHEN 28 => par_add <= "00010101";
+							 par_data <= "0000010000000000";--- 16
 							 main_count := main_count+1;
 				WHEN 29 => par_wr <="0";
 							 main_count := main_count+1;
 				WHEN 30 => par_wr <="1";
 							 main_count := main_count+1;		
-							 
-							 
-							 
-							 
-				WHEN 31 => dds_io_update <='1';
+							
+				WHEN 31 => par_wr <="1";
 							 main_count := main_count+1;
-				WHEN 32 to 34 => main_count:=main_count+1;
+				WHEN 32 => par_add <= "00010111";
+							 par_data <= "0000000000000000";--- 0
+							 main_count := main_count+1;
+				WHEN 33 => par_wr <="0";
+							 main_count := main_count+1;
+				WHEN 34 => par_wr <="1";
+							 main_count := main_count+1;		
+							
+				--- FTW 
+				WHEN 35 => par_wr <="1";
+							 main_count := main_count+1;
+				WHEN 36 => par_add <= "00010011";
+							 par_data <= "0000000000010000";
+							 main_count := main_count+1;
+				WHEN 37 => par_wr <="0";
+							 main_count := main_count+1;
+				WHEN 38 => par_wr <="1";
+							 main_count := main_count+1;	
+							 
+							 
+							 
+							 
+				WHEN 39 => dds_io_update <='1';
+							 main_count := main_count+1;
+				WHEN 40 to 45 => main_count:=main_count+1;
 				--WHEN 35 => main_count :=3;
-				WHEN 35 => null;
+				WHEN 46 => null;
 							  
 			END CASE;
 		END IF;
@@ -211,7 +228,7 @@ begin
 	BEGIN
 		IF (clk_in0'event and clk_in0='0') then
 			CASE main_count IS
-				WHEN 0 => dac_out <= main_amplitude; -----set DAC amplitude
+				WHEN 0 => dac_out <= main_amplitude_var; -----set DAC amplitude
 							 --dac_out <= "00000000000000";
 							 dac_wr_pin <= '0';
 							 main_count:=1;
@@ -219,13 +236,13 @@ begin
 				          main_count:=2;
 				WHEN 2 => dac_wr_pin <= '0'; -------------write to dac for amplitude
 				          main_count:=3;
-				WHEN 3 => main_count:=0;
---				WHEN 3 => if (main_amplitude_var = main_amplitude) then
---							   null;
---							 else
---								main_amplitude_var := main_amplitude;
---								main_count:=0;
---							end if;
+--				WHEN 3 => main_count:=0;
+				WHEN 3 => if (main_amplitude_var = main_amplitude) then
+							   null;
+							 else
+								main_amplitude_var := main_amplitude;
+								main_count:=0;
+							end if;
 			END CASE;
 		END IF;
 	END PROCESS;
