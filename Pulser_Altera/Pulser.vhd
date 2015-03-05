@@ -1,14 +1,6 @@
---------------------------------------------------------------------------
--- Counters.vhd
---
--- HDL for the counters sample.  This HDL describes two counters operating
--- on different board clocks and with slightly different functionality.
--- The counter controls and counter values are connected to endpoints so
--- that FrontPanel may control and observe them.
---
--- Copyright (c) 2005-2009  Opal Kelly Incorporated
--- $Rev: 2 $ $Date: 2014-05-02 08:39:50 -0700 (Fri, 02 May 2014) $
---------------------------------------------------------------------------
+---------------
+--- Pulser ----
+---------------
 
 library IEEE;
 use IEEE.std_logic_1164.all;
@@ -59,114 +51,13 @@ architecture arch of Pulser is
 	signal ep60trig   : STD_LOGIC_VECTOR(31 downto 0);
 	signal ep61trig   : STD_LOGIC_VECTOR(31 downto 0);
 
-	signal div1       : STD_LOGIC_VECTOR(23 downto 0);
-	signal div2       : STD_LOGIC_VECTOR(23 downto 0);
-	signal count1     : STD_LOGIC_VECTOR(7 downto 0);
-	signal count2     : STD_LOGIC_VECTOR(7 downto 0);
-	signal clk1div    : STD_LOGIC;
-	signal clk2div    : STD_LOGIC;
-	signal reset1     : STD_LOGIC;
-	signal reset2     : STD_LOGIC;
-	signal disable1   : STD_LOGIC;
-	signal count1eq00 : STD_LOGIC;
-	signal count1eq80 : STD_LOGIC;
-	signal up2        : STD_LOGIC;
-	signal down2      : STD_LOGIC;
-	signal autocount2 : STD_LOGIC;
-	signal count2eqFF : STD_LOGIC;
+
+	
 begin
------ test dds bus ----
-dds_bus_out <= NOT ep00wire;
-led_array <= dds_bus_in;
 
 
 
-reset1     <= ep00wire(0);
-disable1   <= ep00wire(1);
-autocount2 <= ep00wire(2);
-ep20wire   <= (x"000000" & count1);
-ep21wire   <= (x"000000" & count2);
-ep22wire   <= x"00000000";
-reset2     <= ep40wire(0);
-up2        <= ep40wire(1);
-down2      <= ep40wire(2);
-ep60trig   <= (x"0000000" & "00" & count1eq80 & count1eq00);
-ep61trig   <= (x"0000000" & "000" & count2eqFF);
-led        <= not count1(3 downto 2);
--- add custor led
---led_array  <= x"FF" WHEN count1(3 downto 3) = "1" ELSE x"00";
---led_array(7 downto 6) <= count1(3 downto 2);
---led_array(4 downto 0) <= ep00wire(7 downto 3);
---led_array(5 downto 5) <= "1";
 
--- Counter 1
--- + Counting using a divided sys_clk
--- + Reset sets the counter to 0.
--- + Disable turns off the counter.
-process (sys_clk) begin
-	if rising_edge(sys_clk) then
-		div1 <= div1 - "1";
-		if (div1 = x"000000") then
-			div1 <= x"400000";
-			clk1div <= '1';
-		else
-			clk1div <= '0';
-		end if;
-   
-		if (clk1div = '1') then
-			if (reset1 = '1') then
-				count1 <= x"00";
-			elsif (disable1 = '0') then
-				count1 <= count1 + "1";
-			end if;
-		end if;
-   
-		if (count1 = x"00") then
-			count1eq00 <= '1';
-		else
-			count1eq00 <= '0';
-		end if;
-
-		if (count1 = x"80") then
-			count1eq80 <= '1';
-		else
-			count1eq80 <= '0';
-		end if;
-	end if;
-end process;
-
-
--- Counter #2
--- + Reset, up, and down control counter.
--- + If autocount is enabled, a divided sys_clk can also
---   upcount.
-process (sys_clk) begin
-	if rising_edge(sys_clk) then
-		div2 <= div2 - "1";
-		if (div2 = x"000000") then
-			div2 <= x"100000";
-			clk2div <= '1';
-		else
-			clk2div <= '0';
-		end if;
-
-		if (reset2 = '1') then
-			count2 <= x"00";
-		elsif (up2 = '1') then
-			count2 <= count2 + "1";
-		elsif (down2 = '1') then
-			count2 <= count2 - "1";
-		elsif ((autocount2 = '1') and (clk2div = '1')) then
-			count2 <= count2 + "1";
-		end if;
-
-		if (count2 = x"FF") then
-			count2eqFF <= '1';
-		else
-			count2eqFF <= '0';
-		end if;
-	end if;
-end process;
 
 -- Instantiate the okHost and connect endpoints
 okHI : okHost port map (

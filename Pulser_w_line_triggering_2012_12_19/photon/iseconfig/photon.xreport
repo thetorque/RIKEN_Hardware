@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2014-10-16T15:39:02</DateModified>
+  <DateModified>2015-03-05T14:40:23</DateModified>
   <ModuleName>photon</ModuleName>
   <SummaryTimeStamp>2012-02-23T23:26:25</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/thanedp/Desktop/Pulser_w_line_triggering_2012_12_19/photon/iseconfig/photon.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/thanedp/Desktop/Pulser_w_line_triggering_2012_12_19/photon\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/Thaned/Desktop/Hardware/RIKEN_Hardware/Pulser_w_line_triggering_2012_12_19/photon/iseconfig/photon.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Thaned/Desktop/Hardware/RIKEN_Hardware/Pulser_w_line_triggering_2012_12_19/photon\</ImplementationReportsDirectory>
   <DateInitialized>2012-02-15T16:27:09</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
