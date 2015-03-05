@@ -2,20 +2,20 @@
 TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 1200mV 85C Model Setup 'clk_in0'
-Slack : -2.268
-TNS   : -51.029
-
 Type  : Slow 1200mV 85C Model Setup 'clk_system'
-Slack : -1.191
-TNS   : -5.965
+Slack : -2.990
+TNS   : -11.614
+
+Type  : Slow 1200mV 85C Model Setup 'clk_in0'
+Slack : -2.070
+TNS   : -46.649
 
 Type  : Slow 1200mV 85C Model Hold 'clk_in0'
-Slack : 0.435
+Slack : 0.436
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'clk_system'
-Slack : 0.454
+Slack : 0.446
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_in0'
@@ -26,20 +26,20 @@ Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_system'
 Slack : -1.487
 TNS   : -11.896
 
-Type  : Slow 1200mV 0C Model Setup 'clk_in0'
-Slack : -2.110
-TNS   : -45.922
-
 Type  : Slow 1200mV 0C Model Setup 'clk_system'
-Slack : -0.997
-TNS   : -4.796
+Slack : -2.737
+TNS   : -10.419
+
+Type  : Slow 1200mV 0C Model Setup 'clk_in0'
+Slack : -1.897
+TNS   : -41.078
 
 Type  : Slow 1200mV 0C Model Hold 'clk_in0'
-Slack : 0.388
+Slack : 0.389
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'clk_system'
-Slack : 0.402
+Slack : 0.398
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_in0'
@@ -50,25 +50,25 @@ Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_system'
 Slack : -1.487
 TNS   : -11.896
 
-Type  : Fast 1200mV 0C Model Setup 'clk_in0'
-Slack : -0.402
-TNS   : -6.768
-
 Type  : Fast 1200mV 0C Model Setup 'clk_system'
-Slack : 0.041
-TNS   : 0.000
+Slack : -0.636
+TNS   : -1.361
+
+Type  : Fast 1200mV 0C Model Setup 'clk_in0'
+Slack : -0.344
+TNS   : -5.165
 
 Type  : Fast 1200mV 0C Model Hold 'clk_in0'
-Slack : 0.135
+Slack : 0.176
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'clk_system'
-Slack : 0.187
+Slack : 0.185
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_in0'
 Slack : -3.000
-TNS   : -42.931
+TNS   : -42.943
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_system'
 Slack : -1.000

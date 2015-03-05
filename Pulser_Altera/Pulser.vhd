@@ -27,7 +27,20 @@ entity Pulser is
 
 		sys_clk   : in     STD_LOGIC;
 		
+		---- Puler pins connection ----
+		dds_bus_out	:out		std_LOGIC_VECTOR(31 downto 0);
+		dds_bus_in	:in 		std_logic_vector(7 downto 0);
+		ttl_out		:out		std_logic_vector(35 downto 0);
+		aux_clk_in	:in		std_logic;
+		aux_io		:out		std_LOGIC_VECTOR(17 downto 0);
+		pmt_in		:in		std_logic;
+		trigger_in	:in		std_logic;
+		aux_in		:in		std_logic;
+		
+		
+		---- LED on the module ---
 		led       : out    STD_LOGIC_VECTOR(1 downto 0);
+		---- LED on the breakout board ----
 		led_array : out    STD_LOGIC_VECTOR(7 downto 0)
 	);
 end Pulser;
@@ -62,6 +75,11 @@ architecture arch of Pulser is
 	signal autocount2 : STD_LOGIC;
 	signal count2eqFF : STD_LOGIC;
 begin
+----- test dds bus ----
+dds_bus_out <= NOT ep00wire;
+led_array <= dds_bus_in;
+
+
 
 reset1     <= ep00wire(0);
 disable1   <= ep00wire(1);
@@ -77,9 +95,9 @@ ep61trig   <= (x"0000000" & "000" & count2eqFF);
 led        <= not count1(3 downto 2);
 -- add custor led
 --led_array  <= x"FF" WHEN count1(3 downto 3) = "1" ELSE x"00";
-led_array(7 downto 6) <= count1(3 downto 2);
-led_array(4 downto 0) <= ep00wire(7 downto 3);
-led_array(5 downto 5) <= "1";
+--led_array(7 downto 6) <= count1(3 downto 2);
+--led_array(4 downto 0) <= ep00wire(7 downto 3);
+--led_array(5 downto 5) <= "1";
 
 -- Counter 1
 -- + Counting using a divided sys_clk

@@ -103,7 +103,7 @@ GND                          : B15       : gnd    :                   :         
 dds_port[10]                 : B16       : output : 3.3-V LVTTL       :         : 6         : Y              
 ~ALTERA_ASDO_DATA1~ / RESERVED_INPUT_WITH_WEAK_PULLUP : C1        : input  : 3.3-V LVTTL       :         : 1         : N              
 dds_drover                   : C2        : input  : 3.3-V LVTTL       :         : 1         : Y              
-RESERVED_INPUT_WITH_WEAK_PULLUP : C3        :        :                   :         : 8         :                
+dds_bus_in[19]               : C3        : input  : 3.3-V LVTTL       :         : 8         : Y              
 VCCIO8                       : C4        : power  :                   : 3.3V    : 8         :                
 GND                          : C5        : gnd    :                   :         :           :                
 dac_out[0]                   : C6        : output : 3.3-V LVTTL       :         : 8         : Y              
@@ -119,10 +119,10 @@ dds_port[9]                  : C15       : output : 3.3-V LVTTL       :         
 dds_port[8]                  : C16       : output : 3.3-V LVTTL       :         : 6         : Y              
 dds_drhold                   : D1        : output : 3.3-V LVTTL       :         : 1         : Y              
 ~ALTERA_FLASH_nCE_nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : D2        : input  : 3.3-V LVTTL       :         : 1         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : D3        :        :                   :         : 8         :                
+dds_bus_in[18]               : D3        : input  : 3.3-V LVTTL       :         : 8         : Y              
 VCCD_PLL3                    : D4        : power  :                   : 1.2V    :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : D5        :        :                   :         : 8         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : D6        :        :                   :         : 8         :                
+dds_bus_in[16]               : D5        : input  : 3.3-V LVTTL       :         : 8         : Y              
+dds_bus_in[17]               : D6        : input  : 3.3-V LVTTL       :         : 8         : Y              
 GND                          : D7        : gnd    :                   :         :           :                
 dac_out[3]                   : D8        : output : 3.3-V LVTTL       :         : 8         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : D9        :        :                   :         : 7         :                
@@ -151,7 +151,7 @@ GND+                         : E15       :        :                   :         
 GND+                         : E16       :        :                   :         : 6         :                
 dds_drctl                    : F1        : output : 3.3-V LVTTL       :         : 1         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : F2        :        :                   :         : 1         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : F3        :        :                   :         : 1         :                
+dds_bus_in[21]               : F3        : input  : 3.3-V LVTTL       :         : 1         : Y              
 nSTATUS                      : F4        :        :                   :         : 1         :                
 VCCA3                        : F5        : power  :                   : 2.5V    :           :                
 GND                          : F6        : gnd    :                   :         :           :                
@@ -197,8 +197,8 @@ MSEL0                        : H13       :        :                   :         
 CONF_DONE                    : H14       :        :                   :         : 6         :                
 GND                          : H15       : gnd    :                   :         :           :                
 GND                          : H16       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : J1        :        :                   :         : 2         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : J2        :        :                   :         : 2         :                
+dds_bus_in[2]                : J1        : input  : 3.3-V LVTTL       :         : 2         : Y              
+dds_bus_in[3]                : J2        : input  : 3.3-V LVTTL       :         : 2         : Y              
 nCE                          : J3        :        :                   :         : 1         :                
 TDO                          : J4        : output :                   :         : 1         :                
 TMS                          : J5        : input  :                   :         : 1         :                
@@ -213,11 +213,11 @@ dac_out[13]                  : J13       : output : 3.3-V LVTTL       :         
 dac_out[12]                  : J14       : output : 3.3-V LVTTL       :         : 5         : Y              
 dds_port[1]                  : J15       : output : 3.3-V LVTTL       :         : 5         : Y              
 dds_port[0]                  : J16       : output : 3.3-V LVTTL       :         : 5         : Y              
-RESERVED_INPUT_WITH_WEAK_PULLUP : K1        :        :                   :         : 2         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : K2        :        :                   :         : 2         :                
+dds_bus_in[0]                : K1        : input  : 3.3-V LVTTL       :         : 2         : Y              
+dds_bus_in[1]                : K2        : input  : 3.3-V LVTTL       :         : 2         : Y              
 VCCIO2                       : K3        : power  :                   : 3.3V    : 2         :                
 GND                          : K4        : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : K5        :        :                   :         : 2         :                
+dds_bus_in[20]               : K5        : input  : 3.3-V LVTTL       :         : 2         : Y              
 GND                          : K6        : gnd    :                   :         :           :                
 VCCINT                       : K7        : power  :                   : 1.2V    :           :                
 GND                          : K8        : gnd    :                   :         :           :                
@@ -229,13 +229,13 @@ GND                          : K13       : gnd    :                   :         
 VCCIO5                       : K14       : power  :                   : 3.3V    : 5         :                
 ps[0]                        : K15       : output : 3.3-V LVTTL       :         : 5         : Y              
 ps[1]                        : K16       : output : 3.3-V LVTTL       :         : 5         : Y              
-RESERVED_INPUT_WITH_WEAK_PULLUP : L1        :        :                   :         : 2         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : L2        :        :                   :         : 2         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : L3        :        :                   :         : 2         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : L4        :        :                   :         : 2         :                
+dds_bus_in[6]                : L1        : input  : 3.3-V LVTTL       :         : 2         : Y              
+dds_bus_in[7]                : L2        : input  : 3.3-V LVTTL       :         : 2         : Y              
+dds_bus_in[22]               : L3        : input  : 3.3-V LVTTL       :         : 2         : Y              
+dds_bus_in[25]               : L4        : input  : 3.3-V LVTTL       :         : 2         : Y              
 VCCA1                        : L5        : power  :                   : 2.5V    :           :                
 VCCINT                       : L6        : power  :                   : 1.2V    :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : L7        :        :                   :         : 3         :                
+dds_bus_in[23]               : L7        : input  : 3.3-V LVTTL       :         : 3         : Y              
 dac_out[7]                   : L8        : output : 3.3-V LVTTL       :         : 3         : Y              
 GND                          : L9        : gnd    :                   :         :           :                
 GND                          : L10       : gnd    :                   :         :           :                
@@ -250,9 +250,9 @@ GND+                         : M2        :        :                   :         
 VCCIO2                       : M3        : power  :                   : 3.3V    : 2         :                
 GND                          : M4        : gnd    :                   :         :           :                
 GNDA1                        : M5        : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : M6        :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : M7        :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : M8        :        :                   :         : 3         :                
+dds_bus_in[24]               : M6        : input  : 3.3-V LVTTL       :         : 3         : Y              
+dds_bus_in[28]               : M7        : input  : 3.3-V LVTTL       :         : 3         : Y              
+tx_enable[1]                 : M8        : output : 3.3-V LVTTL       :         : 3         : Y              
 VCCINT                       : M9        : power  :                   : 1.2V    :           :                
 LED_CLK                      : M10       : output : 3.3-V LVTTL       :         : 4         : Y              
 VCCINT                       : M11       : power  :                   : 1.2V    :           :                
@@ -261,14 +261,14 @@ GND                          : M13       : gnd    :                   :         
 VCCIO5                       : M14       : power  :                   : 3.3V    : 5         :                
 GND+                         : M15       :        :                   :         : 5         :                
 GND+                         : M16       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : N1        :        :                   :         : 2         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : N2        :        :                   :         : 2         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : N3        :        :                   :         : 3         :                
+dds_bus_in[4]                : N1        : input  : 3.3-V LVTTL       :         : 2         : Y              
+dds_bus_in[5]                : N2        : input  : 3.3-V LVTTL       :         : 2         : Y              
+dds_bus_in[27]               : N3        : input  : 3.3-V LVTTL       :         : 3         : Y              
 VCCD_PLL1                    : N4        : power  :                   : 1.2V    :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : N5        :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : N6        :        :                   :         : 3         :                
+dds_bus_in[29]               : N5        : input  : 3.3-V LVTTL       :         : 3         : Y              
+dds_bus_in[30]               : N6        : input  : 3.3-V LVTTL       :         : 3         : Y              
 GND                          : N7        : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : N8        :        :                   :         : 3         :                
+dds_bus_out[7]               : N8        : output : 3.3-V LVTTL       :         : 3         : Y              
 LED_LE                       : N9        : output : 3.3-V LVTTL       :         : 4         : Y              
 GND                          : N10       : gnd    :                   :         :           :                
 LED_OE                       : N11       : output : 3.3-V LVTTL       :         : 4         : Y              
@@ -277,15 +277,15 @@ VCCD_PLL4                    : N13       : power  :                   : 1.2V    
 add_in[2]                    : N14       : input  : 3.3-V LVTTL       :         : 5         : Y              
 f_pin[1]                     : N15       : output : 3.3-V LVTTL       :         : 5         : Y              
 f_pin[2]                     : N16       : output : 3.3-V LVTTL       :         : 5         : Y              
-RESERVED_INPUT_WITH_WEAK_PULLUP : P1        :        :                   :         : 2         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : P2        :        :                   :         : 2         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : P3        :        :                   :         : 3         :                
+dds_bus_in[10]               : P1        : input  : 3.3-V LVTTL       :         : 2         : Y              
+dds_bus_in[11]               : P2        : input  : 3.3-V LVTTL       :         : 2         : Y              
+dds_bus_in[26]               : P3        : input  : 3.3-V LVTTL       :         : 3         : Y              
 VCCIO3                       : P4        : power  :                   : 3.3V    : 3         :                
 GND                          : P5        : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : P6        :        :                   :         : 3         :                
+dds_bus_in[31]               : P6        : input  : 3.3-V LVTTL       :         : 3         : Y              
 VCCIO3                       : P7        : power  :                   : 3.3V    : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : P8        :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : P9        :        :                   :         : 4         :                
+dds_bus_out[4]               : P8        : output : 3.3-V LVTTL       :         : 3         : Y              
+dds_bus_out[6]               : P9        : output : 3.3-V LVTTL       :         : 4         : Y              
 VCCIO4                       : P10       : power  :                   : 3.3V    : 4         :                
 LED_SDI[0]                   : P11       : output : 3.3-V LVTTL       :         : 4         : Y              
 GND                          : P12       : gnd    :                   :         :           :                
@@ -293,13 +293,13 @@ VCCIO4                       : P13       : power  :                   : 3.3V    
 add_in[1]                    : P14       : input  : 3.3-V LVTTL       :         : 4         : Y              
 f_pin[3]                     : P15       : output : 3.3-V LVTTL       :         : 5         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : P16       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : R1        :        :                   :         : 2         :                
+dds_bus_in[8]                : R1        : input  : 3.3-V LVTTL       :         : 2         : Y              
 GND                          : R2        : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : R3        :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : R4        :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : R5        :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : R6        :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : R7        :        :                   :         : 3         :                
+dds_bus_in[14]               : R3        : input  : 3.3-V LVTTL       :         : 3         : Y              
+dds_bus_in[12]               : R4        : input  : 3.3-V LVTTL       :         : 3         : Y              
+dds_bus_out[2]               : R5        : output : 3.3-V LVTTL       :         : 3         : Y              
+dds_bus_out[0]               : R6        : output : 3.3-V LVTTL       :         : 3         : Y              
+dds_bus_out[5]               : R7        : output : 3.3-V LVTTL       :         : 3         : Y              
 GND+                         : R8        :        :                   :         : 3         :                
 GND+                         : R9        :        :                   :         : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R10       :        :                   :         : 4         :                
@@ -310,12 +310,12 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : R14       :        :                   :      
 GND                          : R15       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R16       :        :                   :         : 5         :                
 VCCIO3                       : T1        : power  :                   : 3.3V    : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : T2        :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : T3        :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : T4        :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : T5        :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : T6        :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : T7        :        :                   :         : 3         :                
+dds_bus_in[9]                : T2        : input  : 3.3-V LVTTL       :         : 3         : Y              
+dds_bus_in[15]               : T3        : input  : 3.3-V LVTTL       :         : 3         : Y              
+dds_bus_in[13]               : T4        : input  : 3.3-V LVTTL       :         : 3         : Y              
+dds_bus_out[3]               : T5        : output : 3.3-V LVTTL       :         : 3         : Y              
+tx_enable[0]                 : T6        : output : 3.3-V LVTTL       :         : 3         : Y              
+dds_bus_out[1]               : T7        : output : 3.3-V LVTTL       :         : 3         : Y              
 clk_in0                      : T8        : input  : 3.3-V LVTTL       :         : 3         : Y              
 GND+                         : T9        :        :                   :         : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : T10       :        :                   :         : 4         :                

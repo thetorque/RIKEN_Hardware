@@ -1,5 +1,5 @@
 Analysis & Synthesis report for DDS_RIKEN
-Wed Mar 04 14:51:50 2015
+Thu Mar 05 14:17:08 2015
 Quartus II 64-Bit Version 14.1.0 Build 186 12/03/2014 SJ Web Edition
 
 
@@ -46,16 +46,16 @@ agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Mar 04 14:51:50 2015      ;
+; Analysis & Synthesis Status        ; Successful - Thu Mar 05 14:17:08 2015      ;
 ; Quartus II 64-Bit Version          ; 14.1.0 Build 186 12/03/2014 SJ Web Edition ;
 ; Revision Name                      ; DDS_RIKEN                                  ;
 ; Top-level Entity Name              ; DDS_RIKEN                                  ;
 ; Family                             ; Cyclone IV E                               ;
-; Total logic elements               ; 89                                         ;
-;     Total combinational functions  ; 89                                         ;
+; Total logic elements               ; 125                                        ;
+;     Total combinational functions  ; 125                                        ;
 ;     Dedicated logic registers      ; 38                                         ;
 ; Total registers                    ; 38                                         ;
-; Total pins                         ; 70                                         ;
+; Total pins                         ; 112                                        ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0                                          ;
 ; Embedded Multiplier 9-bit elements ; 0                                          ;
@@ -181,30 +181,30 @@ agreement for further details.
 +---------------------------------------------+---------------+
 ; Resource                                    ; Usage         ;
 +---------------------------------------------+---------------+
-; Estimated Total logic elements              ; 89            ;
+; Estimated Total logic elements              ; 125           ;
 ;                                             ;               ;
-; Total combinational functions               ; 89            ;
+; Total combinational functions               ; 125           ;
 ; Logic element usage by number of LUT inputs ;               ;
-;     -- 4 input functions                    ; 52            ;
-;     -- 3 input functions                    ; 17            ;
-;     -- <=2 input functions                  ; 20            ;
+;     -- 4 input functions                    ; 79            ;
+;     -- 3 input functions                    ; 29            ;
+;     -- <=2 input functions                  ; 17            ;
 ;                                             ;               ;
 ; Logic elements by mode                      ;               ;
-;     -- normal mode                          ; 84            ;
+;     -- normal mode                          ; 120           ;
 ;     -- arithmetic mode                      ; 5             ;
 ;                                             ;               ;
 ; Total registers                             ; 38            ;
 ;     -- Dedicated logic registers            ; 38            ;
 ;     -- I/O registers                        ; 0             ;
 ;                                             ;               ;
-; I/O pins                                    ; 70            ;
+; I/O pins                                    ; 112           ;
 ;                                             ;               ;
 ; Embedded Multiplier 9-bit elements          ; 0             ;
 ;                                             ;               ;
 ; Maximum fan-out node                        ; clk_in0~input ;
 ; Maximum fan-out                             ; 30            ;
-; Total fan-out                               ; 473           ;
-; Average fan-out                             ; 1.77          ;
+; Total fan-out                               ; 661           ;
+; Average fan-out                             ; 1.71          ;
 +---------------------------------------------+---------------+
 
 
@@ -213,7 +213,7 @@ agreement for further details.
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; |DDS_RIKEN                 ; 89 (89)           ; 38 (38)      ; 0           ; 0            ; 0       ; 0         ; 70   ; 0            ; |DDS_RIKEN          ; work         ;
+; |DDS_RIKEN                 ; 125 (125)         ; 38 (38)      ; 0           ; 0            ; 0       ; 0         ; 112  ; 0            ; |DDS_RIKEN          ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -292,22 +292,22 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 70                          ;
+; boundary_port         ; 112                         ;
 ; cycloneiii_ff         ; 38                          ;
 ;     ENA               ; 6                           ;
 ;     plain             ; 32                          ;
-; cycloneiii_lcell_comb ; 91                          ;
+; cycloneiii_lcell_comb ; 127                         ;
 ;     arith             ; 5                           ;
 ;         2 data inputs ; 5                           ;
-;     normal            ; 86                          ;
+;     normal            ; 122                         ;
 ;         0 data inputs ; 2                           ;
 ;         1 data inputs ; 2                           ;
-;         2 data inputs ; 13                          ;
-;         3 data inputs ; 17                          ;
-;         4 data inputs ; 52                          ;
+;         2 data inputs ; 10                          ;
+;         3 data inputs ; 29                          ;
+;         4 data inputs ; 79                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 4.00                        ;
-; Average LUT depth     ; 2.51                        ;
+; Max LUT depth         ; 9.00                        ;
+; Average LUT depth     ; 4.18                        ;
 +-----------------------+-----------------------------+
 
 
@@ -326,7 +326,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 14.1.0 Build 186 12/03/2014 SJ Web Edition
-    Info: Processing started: Wed Mar 04 14:51:41 2015
+    Info: Processing started: Thu Mar 05 14:16:58 2015
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DDS_RIKEN -c DDS_RIKEN
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
 Info (12021): Found 2 design units, including 1 entities, in source file dds_riken.vhd
@@ -359,6 +359,8 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "ps[0]" is stuck at GND
     Warning (13410): Pin "ps[1]" is stuck at GND
     Warning (13410): Pin "ps[2]" is stuck at GND
+    Warning (13410): Pin "tx_enable[0]" is stuck at VCC
+    Warning (13410): Pin "tx_enable[1]" is stuck at VCC
     Warning (13410): Pin "dac_out[0]" is stuck at GND
     Warning (13410): Pin "dac_out[1]" is stuck at GND
     Warning (13410): Pin "dac_out[2]" is stuck at GND
@@ -376,21 +378,17 @@ Warning (13024): Output pins are stuck at VCC or GND
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 6 input pin(s) that do not drive logic
+Warning (21074): Design contains 2 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "clk_dds"
     Warning (15610): No output dependent on input pin "dds_drover"
-    Warning (15610): No output dependent on input pin "add_in[0]"
-    Warning (15610): No output dependent on input pin "add_in[1]"
-    Warning (15610): No output dependent on input pin "add_in[2]"
-    Warning (15610): No output dependent on input pin "add_in[3]"
-Info (21057): Implemented 159 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 7 input pins
-    Info (21059): Implemented 63 output pins
-    Info (21061): Implemented 89 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 47 warnings
-    Info: Peak virtual memory: 670 megabytes
-    Info: Processing ended: Wed Mar 04 14:51:50 2015
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:20
+Info (21057): Implemented 237 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 39 input pins
+    Info (21059): Implemented 73 output pins
+    Info (21061): Implemented 125 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 45 warnings
+    Info: Peak virtual memory: 678 megabytes
+    Info: Processing ended: Thu Mar 05 14:17:08 2015
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:21
 
 

@@ -30,6 +30,11 @@ entity DDS_RIKEN is
 	 --profile select pins--
 	 ps: out std_logic_vector (2 downto 0);
 	 
+	 -- pulser bus --
+	 dds_bus_in: in std_LOGIC_vector(31 downto 0);
+	 dds_bus_out: out std_LOGIC_vector(7 downto 0);
+	 tx_enable: out std_LOGIC_vector(1 downto 0);
+	 
 	 
 	 -- DAC control pin --
 	 
@@ -61,8 +66,22 @@ architecture behaviour of DDS_RIKEN is
 
 
 begin
+	--- test pulse bus ---
+	led_value <= dds_bus_in (7 downto 0) WHEN add_in = "0001" ELSE
+					dds_bus_in (15 downto 8) WHEN add_in = "0010" ELSE
+					dds_bus_in (23 downto 16) WHEN add_in = "0100" ELSE
+					dds_bus_in (31 downto 24) WHEN add_in = "1000" ELSE
+					x"88";
+	--led_value <= dds_bus_in (7 downto 0);
+	--led_value <= dds_bus_in (15 downto 8);
+	--led_value <= dds_bus_in (23 downto 16);
+	--led_value <= dds_bus_in (31 downto 24);
+	
+	tx_enable <= "11";
+	dds_bus_out(3 downto 0) <= add_in;
+	dds_bus_out(7 downto 4) <= add_in;
 
-	led_value <= "00001111";
+	--led_value <= "00001111";
 	
 	--- ground unused pins ---
 	dds_osk <= '0';
